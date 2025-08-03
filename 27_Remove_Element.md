@@ -95,17 +95,17 @@ public:
         return j;
     }
 };
+
+```
+```
 📈 Time & Space Complexity
 Complexity	Value
 Time	O(n)
 Space	O(1) (In-place)
-
+```
 🧪 How It’s Tested
 LeetCode uses a custom judge:
 
-cpp
-Copy
-Edit
 int[] nums = [...];
 int val = ...;
 int k = removeElement(nums, val);
@@ -113,10 +113,13 @@ sort(nums, 0, k);
 for (int i = 0; i < k; i++) {
     assert(nums[i] == expectedNums[i]);
 }
+
 🧷 Tags
 #Arrays #TwoPointers #InPlaceAlgorithm #LeetCode-Easy
 
+```
 🔗 Useful Links
 🔸 Official Problem Link
 
 🔸 Related Visual Guide
+```
