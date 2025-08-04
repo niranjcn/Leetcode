@@ -72,27 +72,28 @@ Image Credit: LeetCode
 
 💡 C++ Code
 ```
-class Solution {
-public:
-    int removeDuplicates(vector<int>& nums) {
-        int j = 0;
-        for(int i = 1; i < nums.size();){
-            if(nums[i] == nums[j]){
-                nums.erase(nums.begin() + j);  // Remove the duplicate
-            } else {
-                j++;
-                i++;
+    class Solution {
+    public:
+        int removeDuplicates(vector<int>& nums) {
+            int j = 0;
+            for(int i = 1; i < nums.size();){
+                if(nums[i] == nums[j]){
+                    nums.erase(nums.begin() + j);  // Remove the duplicate
+                } else {
+                    j++;
+                    i++;
+                }
             }
+            return nums.size();  // The length of array after removing duplicates
         }
-        return nums.size();  // The length of array after removing duplicates
-    }
-};
+    };
+
 ```
 ```
-📈 Time & Space Complexity
-Complexity	Value
-Time	O(n²) (because of erase() inside the loop)
-Space	O(1) (in-place)
+    📈 Time & Space Complexity
+    Complexity	Value
+    Time	O(n²) (because of erase() inside the loop)
+    Space	O(1) (in-place)
 ```
 
 🔁 Note: A more optimal solution would avoid erase() and use index swapping instead to achieve O(n).
