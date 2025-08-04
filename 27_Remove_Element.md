@@ -23,18 +23,14 @@ Input: nums = [3,2,2,3], val = 3
 Output: 2
 Updated nums = [2,2,,]
 
-shell
-Copy
-Edit
+
 
 ### ✅ Example 2:
 Input: nums = [0,1,2,2,3,0,4,2], val = 2
 Output: 5
 Updated nums = [0,1,4,0,3,,,_]
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -99,17 +95,17 @@ public:
         return j;
     }
 };
+
+```
+```
 📈 Time & Space Complexity
 Complexity	Value
 Time	O(n)
 Space	O(1) (In-place)
-
+```
 🧪 How It’s Tested
 LeetCode uses a custom judge:
 
-cpp
-Copy
-Edit
 int[] nums = [...];
 int val = ...;
 int k = removeElement(nums, val);
@@ -117,10 +113,13 @@ sort(nums, 0, k);
 for (int i = 0; i < k; i++) {
     assert(nums[i] == expectedNums[i]);
 }
+
 🧷 Tags
 #Arrays #TwoPointers #InPlaceAlgorithm #LeetCode-Easy
 
+```
 🔗 Useful Links
 🔸 Official Problem Link
 
 🔸 Related Visual Guide
+```
