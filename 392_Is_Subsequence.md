@@ -61,8 +61,8 @@ At the end, if `i == s.length()`, all characters from `s` were matched in order 
 
 ### 📷 Visual Illustration
 
-| s (subsequence) | a | b | c |
-|------------------|---|---|---|
+| s (subsequence) | a | b | c |  |  |   |
+|------------------|---|---|---|---|---|---|
 | t (main string)  | a | h | b | g | d | c |
 | Pointers         | ↑ |   |   |   |   |   |
 
