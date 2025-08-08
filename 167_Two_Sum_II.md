@@ -101,10 +101,14 @@ public:
         return result;
     }
 };
+```
+---
+```
 📈 Time & Space Complexity
 Complexity	Value
 Time	O(n)
 Space	O(1) — constant
-
+```
+---
 🏷 Tags
 #TwoPointers #Array #BinarySearch #Greedy #SortedInput #LeetCode-Medium
