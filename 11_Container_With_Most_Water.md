@@ -24,32 +24,28 @@
 ### ✅ Example 1:
 
 **Input:**
-```cpp
+```
 height = [1,8,6,2,5,4,8,3,7]
-Output:
-
-C++
-
-49
+Output:49
+```
 Explanation: The vertical lines are represented by the array [1,8,6,2,5,4,8,3,7]. The maximum area of water the container can hold is 49 (achieved between the line at index 1 with height 8 and the line at index 8 with height 7).
 
 ✅ Example 2:
 Input:
 
-C++
-
+```
 height = [1,1]
-Output:
-
-C++
-
-1
+Output:1
+```
+---
 📌 Constraints
 n == height.length
 
 2 <= n <= 10^5
 
 0 <= height[i] <= 10^4
+
+---
 
 💡 Pattern & Approach
 This problem can be efficiently solved using the Two-Pointer Technique with a Greedy Shrinking strategy.
@@ -90,9 +86,11 @@ i	j	height[i]	height[j]	width	min height	area	maxcap
 Export to Sheets
 The loop terminates as i would become 2, making i == j. The final result is 49.
 
+---
+
 💻 C++ Code
 C++
-
+```
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -117,10 +115,14 @@ public:
         return maxcap;
     }
 };
+```
+---
+```
 📈 Time & Space Complexity
 Complexity	Value
 Time	O(n)
 Space	O(1)
+```
 
 Export to Sheets
 Since the two pointers i and j traverse the array only once, the time complexity is linear. No extra data structures are used, so the space complexity is constant.
