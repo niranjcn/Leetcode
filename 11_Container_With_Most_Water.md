@@ -47,44 +47,67 @@ n == height.length
 
 ---
 
-💡 Pattern & Approach
-This problem can be efficiently solved using the Two-Pointer Technique with a Greedy Shrinking strategy.
+## 💡 Pattern & Approach
+This problem can be solved efficiently using the **Two-Pointer Technique** combined with a **Greedy Shrinking** strategy.
 
-The Logic
-The core idea is to start with the widest possible container and iteratively shrink it, always aiming for a potentially larger area.
+---
 
-Initialize Pointers: Start with two pointers, i at the beginning of the array (0) and j at the end (n-1).
+## 🔍 The Logic
 
-Calculate Area: In each step, calculate the area formed by the lines at i and j. The width is j - i, and the height is limited by the shorter of the two lines.
+1. **Initialize Pointers**  
+   Set two pointers:
+   - `i` at the start (`0`)
+   - `j` at the end (`n-1`)
 
-$$$$$$Area = (j - i) \\times \\min(height[i], height[j]) $$
-$$$$
+2. **Calculate Area**  
+   At each step:
+   - **Width** = `j - i`
+   - **Height** = `min(height[i], height[j])`
+   - **Area** = `width × height`
+   
+Area = (j - i) × min(height[i], height[j])
 
-Update Maximum: Keep track of the maximum area found so far (maxcap). If the current area is greater, update maxcap.
+markdown
+Copy
+Edit
 
-Move the Pointer: This is the key greedy step. To potentially find a larger area, we must increase the height of our container. Since the width (j - i) is guaranteed to decrease, our only hope for a larger area is a taller bounding line.
+3. **Update Maximum**  
+Keep track of `maxcap` — the maximum area found so far.
 
-If height[i] < height[j], we move the left pointer i one step to the right (i++). We do this because moving the taller pointer j inward would definitely result in a smaller or equal area (as the width decreases and the height is still limited by height[i]).
+4. **Move the Pointer (Greedy Choice)**  
+- If `height[i] < height[j]`, increment `i` (move left pointer rightward).
+- Else, decrement `j` (move right pointer leftward).  
 
-Otherwise, if height[j] <= height[i], we move the right pointer j one step to the left (j--).
+This works because reducing the taller side can't yield a larger area; we must try to find a taller boundary.
 
-Termination: Continue this process until the pointers meet (i >= j). The value stored in maxcap will be the answer.
+5. **Termination**  
+Repeat until `i >= j`.  
+The value in `maxcap` will be the final answer.
 
-🏃‍♂️ Dry Run
-Let's trace the algorithm with height = [1,8,6,2,5,4,8,3,7]:
+---
 
-i	j	height[i]	height[j]	width	min height	area	maxcap
-0	8	1	7	8	1	8	8
-1	8	8	7	7	7	49	49
-1	7	8	3	6	3	18	49
-1	6	8	8	5	8	40	49
-1	5	8	4	4	4	16	49
-1	4	8	5	3	5	15	49
-1	3	8	2	2	2	4	49
-1	2	8	6	1	6	6	49
+## 🏃‍♂️ Dry Run Example
 
-Export to Sheets
-The loop terminates as i would become 2, making i == j. The final result is 49.
+Given:
+height = [1,8,6,2,5,4,8,3,7]
+
+python
+Copy
+Edit
+
+| i  | j  | height[i] | height[j] | width | min height | area | maxcap |
+|----|----|-----------|-----------|-------|------------|------|--------|
+| 0  | 8  | 1         | 7         | 8     | 1          | 8    | 8      |
+| 1  | 8  | 8         | 7         | 7     | 7          | 49   | 49     |
+| 1  | 7  | 8         | 3         | 6     | 3          | 18   | 49     |
+| 1  | 6  | 8         | 8         | 5     | 8          | 40   | 49     |
+| 1  | 5  | 8         | 4         | 4     | 4          | 16   | 49     |
+| 1  | 4  | 8         | 5         | 3     | 5          | 15   | 49     |
+| 1  | 3  | 8         | 2         | 2     | 2          | 4    | 49     |
+| 1  | 2  | 8         | 6         | 1     | 6          | 6    | 49     |
+
+**Final Answer:** `49`
+
 
 ---
 
