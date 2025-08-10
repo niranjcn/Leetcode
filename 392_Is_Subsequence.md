@@ -91,12 +91,14 @@ public:
     }
 };
 ```
+---
+
 ```
 📈 Time & Space Complexity
 Complexity	Value
 Time	O(n) where n = length of t
 Space	O(1) — constant space
 ```
-
+---
 🏷 Tags
 #Strings #TwoPointers #Greedy #LeetCode-Easy
