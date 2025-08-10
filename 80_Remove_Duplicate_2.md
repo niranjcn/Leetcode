@@ -111,6 +111,7 @@ public:
     }
 };
 ```
+----
 ```
     📈 Time & Space Complexity
     Complexity	Value
@@ -119,11 +120,8 @@ public:
 
     ✅ Optimized solutions can achieve O(n) time by overwriting elements instead of erasing.
 ```
+---
 
 🏷 Tags
 #Arrays #TwoPointers #InPlaceAlgorithm #LeetCode-Medium
 
-🔗 Useful Resources
-🔸 Official Problem on LeetCode
-
-📘 Editorial with Optimized Solution
