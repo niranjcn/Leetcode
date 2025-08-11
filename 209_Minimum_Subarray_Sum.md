@@ -17,7 +17,7 @@
 ### ✅ Example 1:
 
 **Input:**
-```cpp
+```
 target = 7, nums = [2,3,1,2,4,3]
 Output:
 
@@ -25,35 +25,34 @@ C++
 
 2
 Explanation: The subarray [4,3] has the minimal length under the problem constraint.
-
+```
+---
+```
 ✅ Example 2:
 Input:
-
-C++
-
 target = 4, nums = [1,4,4]
 Output:
-
-C++
-
 1
+```
+---
+
+
 ✅ Example 3:
+```
 Input:
-
-C++
-
 target = 11, nums = [1,1,1,1,1,1,1,1]
 Output:
-
-C++
-
 0
+```
+---
 📌 Constraints
 1 <= target <= 10^9
 
 1 <= nums.length <= 10^5
 
 1 <= nums[i] <= 10^4
+
+---
 
 💡 Pattern & Approach (O(n) Solution)
 This problem is a classic application of the Sliding Window technique. This pattern is highly efficient for finding a minimum or maximum subarray that satisfies a specific condition.
@@ -101,9 +100,11 @@ right	nums[right]	sum	sum >= 7?	Action	Window Len	minLen	left
 Export to Sheets
 Final Answer: 2
 
+---
+
 💻 C++ Code (O(n) Solution)
 C++
-
+```
 #include <vector>
 #include <algorithm>
 #include <climits>
@@ -135,12 +136,16 @@ public:
         return (minLen == INT_MAX) ? 0 : minLen;
     }
 };
+```
+---
 📈 Time & Space Complexity
 Complexity	Value	Justification
 Time	O(n)	Each element is visited at most twice: once by the right pointer and once by the left pointer. This gives a linear time complexity.
 Space	O(1)	We use a constant amount of extra space for pointers and the sum, regardless of the input size.
 
-Export to Sheets
+---
+
+
 ❓ Follow-up: O(n
 logn) Solution
 The problem asks for an alternate O(n
@@ -155,6 +160,6 @@ logn) time.
 
 Since we perform this search for each of the n elements, the total time complexity becomes O(n
 logn).
-
+---
 🏷️ Tags
 #SlidingWindow #TwoPointers #Array #BinarySearch #LeetCode-Medium
