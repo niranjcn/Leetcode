@@ -50,66 +50,64 @@ s consists of English letters, digits, symbols and spaces.
 
 ---
 
-💡 Pattern & Approach
-This is a perfect problem for the Sliding Window technique combined with a Hash Set. The window represents the current substring we are examining, and the hash set provides a fast way to check if a character already exists in that window.
+## 💡 Pattern & Approach
+This is a perfect problem for the **Sliding Window** technique combined with a **Hash Set**.  
+The window represents the current substring we are examining, and the hash set provides a fast way to check if a character already exists in that window.
 
-🔍 The Logic
-We use two pointers, left and right, to define our window. We try to expand the window by moving right. If we find a duplicate character, we shrink the window from the left until the duplicate is removed.
+---
 
-Initialize:
+## 🔍 The Logic
+We use two pointers, `left` and `right`, to define our window. We try to expand the window by moving `right`.  
+If we find a duplicate character, we shrink the window from the left until the duplicate is removed.
 
-left and right pointers, both at 0.
+**Steps:**
 
-maxLen = 0 to store our final answer.
+1. **Initialize:**
+   - `left` and `right` pointers, both at 0.
+   - `maxLen = 0` to store the final answer.
+   - A hash set `window` to keep track of characters currently in the substring.
 
-A hash set, window, to keep track of characters currently in our substring.
+2. **Iterate and Expand:**  
+   We loop as long as `right` is within the string's bounds.
+   
+   - **Case 1: No Duplicate Found**  
+     - If `s[right]` is not in `window`:  
+       - Add `s[right]` to the set.  
+       - Update `maxLen = max(maxLen, window.size())`.  
+       - Increment `right` to continue expanding.
+   
+   - **Case 2: Duplicate Found**  
+     - If `s[right]` is already in `window`:  
+       - Remove `s[left]` from the set.  
+       - Increment `left`.  
+       - Repeat until the duplicate is gone.
 
-Iterate and Expand: We loop as long as our right pointer is within the string's bounds.
+3. **Result:**  
+   When `right` reaches the end of the string, `maxLen` will contain the length of the longest substring without repeating characters.
 
-Case 1: No Duplicate Found
+---
 
-If the character s[right] is not in our window set:
+## 🏃‍♂️ Dry Run Example
+Let's trace the algorithm with:
 
-We add s[right] to the set.
+`s = "abcabcbb"`
 
-We've successfully expanded our unique substring. Update maxLen = max(maxLen, window.size()).
+| right | s[right] | in window? | Action                                         | left | window     | maxLen |
+|-------|----------|------------|------------------------------------------------|------|------------|--------|
+| 0     | a        | No         | Insert `a`, `right++`, update `maxLen`         | 0    | {a}        | 1      |
+| 1     | b        | No         | Insert `b`, `right++`, update `maxLen`         | 0    | {a,b}      | 2      |
+| 2     | c        | No         | Insert `c`, `right++`, update `maxLen`         | 0    | {a,b,c}    | 3      |
+| 3     | a        | Yes        | Remove `a` (s[left]), `left++`                 | 1    | {b,c}      | 3      |
+| 3     | a        | No         | Insert `a`, `right++`, update `maxLen`         | 1    | {b,c,a}    | 3      |
+| 4     | b        | Yes        | Remove `b` (s[left]), `left++`                 | 2    | {c,a}      | 3      |
+| 4     | b        | No         | Insert `b`, `right++`, update `maxLen`         | 2    | {c,a,b}    | 3      |
+| 5     | c        | Yes        | Remove `c` (s[left]), `left++`                 | 3    | {a,b}      | 3      |
+| 5     | c        | No         | Insert `c`, `right++`, update `maxLen`         | 3    | {a,b,c}    | 3      |
+| 6     | b        | Yes        | Remove `a` (s[left]), `left++`                 | 4    | {b,c}      | 3      |
+| 6     | b        | Yes        | Remove `b` (s[left]), `left++`                 | 5    | {c}        | 3      |
+| 6     | b        | No         | Insert `b`, `right++`, update `maxLen`         | 5    | {c,b}      | 3      |
 
-Increment right to continue expanding.
-
-Case 2: Duplicate Found
-
-If the character s[right] is already in our window set:
-
-We have a duplicate. We must shrink the window from the left to remove the first occurrence of this character.
-
-Remove s[left] from the set.
-
-Increment left.
-
-We repeat this shrink step until the duplicate is gone, at which point the loop will proceed to expand again.
-
-Result: The loop finishes when right reaches the end of the string. The value in maxLen is our answer.
-
-🏃‍♂️ Dry Run Example
-Let's trace the algorithm with s = "abcabcbb".
-Initial State: left = 0, right = 0, window = {}, maxLen = 0
-
-right	s[right]	in window?	Action	left	window	maxLen
-0	a	No	Insert a, right++, update maxLen	0	{a}	1
-1	b	No	Insert b, right++, update maxLen	0	{a,b}	2
-2	c	No	Insert c, right++, update maxLen	0	{a,b,c}	3
-3	a	Yes	Remove s[left] (a), left++	1	{b,c}	3
-3	a	No	Insert a, right++, update maxLen	1	{b,c,a}	3
-4	b	Yes	Remove s[left] (b), left++	2	{c,a}	3
-4	b	No	Insert b, right++, update maxLen	2	{c,a,b}	3
-5	c	Yes	Remove s[left] (c), left++	3	{a,b}	3
-5	c	No	Insert c, right++, update maxLen	3	{a,b,c}	3
-6	b	Yes	Remove s[left] (a), left++	4	{b,c}	3
-6	b	Yes	Remove s[left] (b), left++	5	{c}	3
-6	b	No	Insert b, right++, update maxLen	5	{c,b}	3
-
-Export to Sheets
-The loop terminates when right reaches the end. The final answer is 3.
+✅ **Final Answer:** `3`
 
 💻 C++ Code
 ```
