@@ -17,46 +17,38 @@
 ### ✅ Example 1:
 
 **Input:**
-```cpp
+```
 s = "abcabcbb"
-Output:
-
-C++
-
-3
+Output:3
 Explanation: The answer is "abc", with the length of 3.
+```
+
+----
 
 ✅ Example 2:
 Input:
-
-C++
-
+```
 s = "bbbbb"
-Output:
-
-C++
-
-1
+Output:1
 Explanation: The answer is "b", with the length of 1.
+```
+---
 
 ✅ Example 3:
 Input:
-
-C++
-
+```
 s = "pwwkew"
-Output:
-
-C++
-
-3
+Output:3
 Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
-
+```
+---
 📌 Constraints
 0 <= s.length <= 5 * 10^4
 
 s consists of English letters, digits, symbols and spaces.
+
+---
 
 💡 Pattern & Approach
 This is a perfect problem for the Sliding Window technique combined with a Hash Set. The window represents the current substring we are examining, and the hash set provides a fast way to check if a character already exists in that window.
@@ -120,7 +112,7 @@ Export to Sheets
 The loop terminates when right reaches the end. The final answer is 3.
 
 💻 C++ Code
-C++
+```
 
 #include <string>
 #include <unordered_set>
@@ -151,11 +143,14 @@ public:
         return maxLen;
     }
 };
+
+```
+---
 📈 Time & Space Complexity
 Complexity	Value	Justification
 Time	O(n)	Each character in the string s is visited at most twice—once by the right pointer and once by the left pointer. This makes the overall time complexity linear.
 Space	O(k)	The space complexity is determined by the size of the hash set (window). In the worst case, the string contains all unique characters, so the space is proportional to the number of unique characters, k. k is at most min(n, m), where n is the string length and m is the size of the character set.
 
-Export to Sheets
+---
 🏷️ Tags
 #SlidingWindow #HashTable #String #TwoPointers #LeetCode-Medium
