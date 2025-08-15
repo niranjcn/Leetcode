@@ -15,26 +15,23 @@
 ## 📥 Example Inputs
 
 ### ✅ Example 1:
-
+```
 **Input:**
-```cpp
+
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 Output:
-
-C++
-
 [1,2,3,6,9,8,7,4,5]
+```
+---
+
 ✅ Example 2:
+```
 Input:
-
-C++
-
 matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
-Output:
+output:[1,2,3,4,8,12,11,10,9,5,6,7]
+```
+---
 
-C++
-
-[1,2,3,4,8,12,11,10,9,5,6,7]
 📌 Constraints
 m == matrix.length
 
@@ -43,6 +40,8 @@ n == matrix[i].length
 1 <= m, n <= 10
 
 -100 <= matrix[i][j] <= 100
+
+---
 
 💡 Pattern & Approach
 The problem asks us to simulate a spiral traversal of a matrix. The most intuitive way to handle this is a Layer-by-Layer Simulation using boundary pointers. We can think of this as peeling an onion from the outside in.
@@ -91,8 +90,7 @@ End Condition: The while loop condition top <= bottom (2 <= 1) is now false. The
 Final Answer: [1, 2, 3, 6, 9, 8, 7, 4, 5]
 
 💻 C++ Code
-C++
-
+```
 #include <vector>
 
 class Solution {
@@ -140,11 +138,15 @@ public:
         return result;
     }
 };
+```
+---
+
 📈 Time & Space Complexity
 Complexity	Value	Justification
 Time	O(m
 timesn)	We visit every element in the matrix exactly once.
 Space	O(1)	The space used by the algorithm itself (for the boundary pointers) is constant. If we consider the output result vector, the space complexity is O(m
 timesn), as it stores all elements.
+---
 🏷️ Tags
 #Array #Matrix #Simulation #LeetCode-Medium
