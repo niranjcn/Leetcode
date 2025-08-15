@@ -43,51 +43,71 @@ n == matrix[i].length
 
 ---
 
-💡 Pattern & Approach
-The problem asks us to simulate a spiral traversal of a matrix. The most intuitive way to handle this is a Layer-by-Layer Simulation using boundary pointers. We can think of this as peeling an onion from the outside in.
+## 💡 Pattern & Approach
+The problem asks us to simulate a **spiral traversal of a matrix**.  
+The most intuitive way to handle this is a **Layer-by-Layer Simulation** using boundary pointers.  
+Think of it as peeling an onion from the outside in.
 
-🔍 The Logic
-We'll define four pointers to represent the boundaries of the current layer we are traversing: top, bottom, left, and right. In each iteration of a loop, we will traverse the four sides of the current layer and then shrink the boundaries inward to process the next layer.
+---
 
-Initialize Boundaries:
+## 🔍 The Logic
+We define **four pointers** to represent the boundaries of the current layer:
 
-top = 0 (the first row)
+- `top` = 0 (the first row)  
+- `bottom` = m - 1 (the last row)  
+- `left` = 0 (the first column)  
+- `right` = n - 1 (the last column)  
 
-bottom = m - 1 (the last row)
+---
 
-left = 0 (the first column)
+**Algorithm Steps:**
 
-right = n - 1 (the last column)
+1. **Loop While Boundaries Are Valid:**  
+   Continue as long as `top <= bottom` and `left <= right`.
 
-Loop While Boundaries Are Valid: Continue the process as long as there's a valid layer to traverse, i.e., top <= bottom and left <= right.
+2. **Traverse the Four Sides:**
+   - **Go Right (Top Row):**  
+     From `left` to `right` along `top` row → increment `top`.
+   - **Go Down (Right Column):**  
+     From `top` to `bottom` along `right` column → decrement `right`.
+   - **Go Left (Bottom Row):**  
+     From `right` to `left` along `bottom` row → decrement `bottom`.  
+     _(Check if `top <= bottom` before doing this step.)_
+   - **Go Up (Left Column):**  
+     From `bottom` to `top` along `left` column → increment `left`.  
+     _(Check if `left <= right` before doing this step.)_
 
-Traverse the Four Sides of the Current Layer:
+3. **Repeat:**  
+   Shrink boundaries inward and process the next layer.
 
-Go Right (Top Row): Iterate from left to right along the top row, adding each element to our result. After this, we've processed the top row, so we increment top.
+4. **Stop Condition:**  
+   Loop ends when boundaries cross.
 
-Go Down (Right Column): Iterate from the new top to bottom along the right column. Then, decrement right.
+---
 
-Go Left (Bottom Row): Iterate from the new right back to left along the bottom row. Then, decrement bottom. This step requires a check (if (top <= bottom)) to handle matrices that are just a single row or column.
+## 🏃‍♂️ Dry Run Example
+Let's trace:
 
-Go Up (Left Column): Iterate from the new bottom back to top along the left column. Then, increment left. This also requires a check (if (left <= right)).
+`matrix = [[1,2,3],[4,5,6],[7,8,9]]`
 
-Repeat: The loop continues, with the boundaries shrinking inward, until they cross each other.
+Initial:  
+`top=0, bottom=2, left=0, right=2, result=[]`
 
-🏃‍♂️ Dry Run Example
-Let's trace matrix = [[1,2,3],[4,5,6],[7,8,9]].
-Initial State: top=0, bottom=2, left=0, right=2, result=[]
+| Iteration | Action                              | Boundaries After Action     | Result                           |
+|-----------|-------------------------------------|------------------------------|-----------------------------------|
+| **1**     | Go Right (row 0)                    | `top = 1`                    | [1, 2, 3]                         |
+|           | Go Down (col 2)                     | `right = 1`                  | [1, 2, 3, 6, 9]                   |
+|           | Go Left (row 2)                     | `bottom = 1`                  | [1, 2, 3, 6, 9, 8, 7]             |
+|           | Go Up (col 0)                       | `left = 1`                   | [1, 2, 3, 6, 9, 8, 7, 4]          |
+| **2**     | Go Right (row 1)                    | `top = 2`                    | [1, 2, 3, 6, 9, 8, 7, 4, 5]       |
+|           | Go Down (col 1) _(no elements)_     | `right = 0`                  | (No change)                       |
+|           | Go Left (row 1) _(no elements)_     | `bottom = 0`                  | (No change)                       |
+|           | Go Up (col 1) _(no elements)_       | `left = 2`                   | (No change)                       |
 
-Iteration	Action	Boundaries after Action	Result
-1	Go Right (row 0)	top=1	[1, 2, 3]
-Go Down (col 2)	right=1	[1, 2, 3, 6, 9]
-Go Left (row 2)	bottom=1	[1, 2, 3, 6, 9, 8, 7]
-Go Up (col 0)	left=1	[1, 2, 3, 6, 9, 8, 7, 4]
-2	Go Right (row 1)	top=2	[1, 2, 3, 6, 9, 8, 7, 4, 5]
-Go Down (col 1)	right=0	(Loop i=2..1 doesn't run)
-Go Left (row 1)	bottom=0	(Loop j=0..1 doesn't run)
-Go Up (col 1)	left=2	(Loop i=0..2 doesn't run)
-End Condition: The while loop condition top <= bottom (2 <= 1) is now false. The process terminates.
-Final Answer: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+**End Condition:** `top <= bottom` is now false → loop stops.
+
+✅ **Final Answer:** `[1, 2, 3, 6, 9, 8, 7, 4, 5]`
+
 
 💻 C++ Code
 ```
