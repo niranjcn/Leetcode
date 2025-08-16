@@ -21,47 +21,40 @@
 ### ✅ Example 1:
 
 **Input:**
-```cpp
+```
 head = [3,2,0,-4], pos = 1
 Output:
-
-C++
-
 true
 Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
+```
+---
+
 
 ✅ Example 2:
+```
 Input:
-
-C++
-
 head = [1,2], pos = 0
 Output:
-
-C++
-
 true
 Explanation: There is a cycle where the tail connects to the 0th node.
-
+```
+---
 ✅ Example 3:
+```
 Input:
-
-C++
-
 head = [1], pos = -1
 Output:
-
-C++
-
 false
 Explanation: There is no cycle in the linked list.
-
+```
+---
 📌 Constraints
 The number of the nodes in the list is in the range [0, 10^4].
 
 -10^5 <= Node.val <= 10^5
 
 pos is -1 or a valid index in the linked-list.
+---
 
 💡 Pattern & Approach
 There are two common ways to solve this problem: using a hash set to track visited nodes or using the more space-efficient two-pointer method.
@@ -109,11 +102,11 @@ Step	slow Node	fast Node	slow == fast?
 2	0	2	No
 3	-4	-4	Yes
 Since the pointers meet at node -4, a cycle is detected.
-
+---
 💻 C++ Code
 Approach 1: Hash Map Solution
 C++
-
+```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -148,9 +141,11 @@ public:
         return false;
     }
 };
+```
+---
 Approach 2: Two Pointers (Optimal) Solution
 C++
-
+```
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -177,11 +172,14 @@ public:
         return false;
     }
 };
+
+```
+---
 📈 Time & Space Complexity
 Approach	Time Complexity	Space Complexity
 Hash Map	O(n)	O(n)
 Two Pointers	O(n)	O(1)
 The Two Pointers (Tortoise and Hare) approach is generally preferred due to its superior O(1) space complexity.
-
+---
 🏷️ Tags
 #TwoPointers #LinkedList #HashTable #LeetCode-Easy
