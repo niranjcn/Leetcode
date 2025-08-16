@@ -26,7 +26,7 @@
 ### ✅ Example 1:
 
 **Input:**
-```cpp
+```
 board = 
 [["5","3",".",".","7",".",".",".","."]
 ,["6",".",".","1","9","5",".",".","."]
@@ -38,15 +38,11 @@ board =
 ,[".",".",".","4","1","9",".",".","5"]
 ,[".",".",".",".","8",".",".","7","9"]]
 Output:
-
-C++
-
 true
+```
 ✅ Example 2:
 Input:
-
-C++
-
+```
 board = 
 [["8","3",".",".","7",".",".",".","."]
 ,["6",".",".","1","9","5",".",".","."]
@@ -58,11 +54,11 @@ board =
 ,[".",".",".","4","1","9",".",".","5"]
 ,[".",".",".",".","8",".",".","7","9"]]
 Output:
-
-C++
-
 false
+```
+
 Explanation: Same as Example 1, except with the 5 in the top left corner being modified to 8. Since there are two 8's in the top left 3x3 sub-box (and also in the first column), it is invalid.
+---
 
 📌 Constraints
 board.length == 9
@@ -70,69 +66,71 @@ board.length == 9
 board[i].length == 9
 
 board[i][j] is a digit 1-9 or '.'.
+---
 
-💡 Pattern & Approach
-The most efficient way to solve this is with a Single Pass using Hash Sets or Arrays. Instead of iterating through the board three times (once for rows, once for columns, once for boxes), we can check all three conditions simultaneously as we traverse the grid.
+## 💡 Pattern & Approach
+The most efficient way to solve this is with a **Single Pass** using **Hash Sets or Arrays**.  
+Instead of iterating through the board three separate times (once for rows, once for columns, and once for boxes),  
+we check all three conditions **simultaneously** as we traverse the grid.
 
-🔍 The Logic
-The core idea is to maintain a record of the numbers seen in each row, each column, and each 3x3 box.
+---
 
-Initialize Data Structures: We'll use three 2D arrays to act as our hash sets:
+## 🔍 The Logic
+We maintain a record of the numbers seen in **each row**, **each column**, and **each 3×3 box**.
 
-rows[9][9]: To track numbers seen in each row. rows[i][num] will be true if num is in row i.
+**Steps:**
 
-cols[9][9]: To track numbers seen in each column. cols[j][num] will be true if num is in column j.
+1. **Initialize Data Structures:**
+   - `rows[9][9]`: Tracks numbers seen in each row.  
+     `rows[i][num] = true` if `num` is present in row `i`.
+   - `cols[9][9]`: Tracks numbers seen in each column.  
+     `cols[j][num] = true` if `num` is present in column `j`.
+   - `boxes[9][9]`: Tracks numbers seen in each 3×3 box.  
+     `boxes[k][num] = true` if `num` is present in box `k`.
 
-boxes[9][9]: To track numbers seen in each 3x3 box. boxes[k][num] will be true if num is in box k.
+2. **Single Pass Iteration:**  
+   Loop through every cell `(i, j)` in the board.
 
-Single Pass Iteration: Loop through every cell (i, j) of the board from top-left to bottom-right.
+3. **Check, Validate, and Record:**  
+   - If the cell contains a digit:
+     - **Get the digit** `d` from `board[i][j]`.
+     - **Calculate the Box Index** `k` using:
+       ```
+       k = (i / 3) * 3 + (j / 3)
+       ```
+     - **Validate:**
+       - If `rows[i][d]` is true → duplicate in row.
+       - If `cols[j][d]` is true → duplicate in column.
+       - If `boxes[k][d]` is true → duplicate in 3×3 box.
+       - If any check is true → return `false`.
+     - **Record:**
+       - Mark `rows[i][d] = true`
+       - Mark `cols[j][d] = true`
+       - Mark `boxes[k][d] = true`
 
-Check, Validate, and Record: For each cell that is not empty (.):
+4. **Return Result:**  
+   If no duplicates are found by the end of iteration → return `true`.
 
-Get the digit d from board[i][j].
+---
 
-Calculate the Box Index (k): This is the clever trick. We map the (i, j) coordinates to a single box index from 0 to 8 using the formula:
-$$ k = (\frac{i}{3}) \times 3 + (\frac{j}{3}) $$
+## 🏃‍♂️ Dry Run (Spot Check)
+**Board Example:**
+Let’s trace a couple of cells and see the **box index calculation** in action.
 
-Validate: Check if the digit d has already been seen in the current context:
+| Cell `(i,j)` | Value | Box Index Calculation                  | k   | Duplicate? | Action                                                                 |
+|--------------|-------|----------------------------------------|-----|------------|------------------------------------------------------------------------|
+| (4,5)        | '3'   | `(4 / 3) * 3 + (5 / 3) = 1 * 3 + 1`     | 4   | No         | Mark 3 as seen in `rows[4]`, `cols[5]`, `boxes[4]`                     |
+| (1,1)        | '6'   | `(1 / 3) * 3 + (1 / 3) = 0 * 3 + 0`     | 0   | No         | Mark 6 as seen in `rows[1]`, `cols[1]`, `boxes[0]`                     |
+| (2,2)        | '6'   | `(2 / 3) * 3 + (2 / 3) = 0 * 3 + 0`     | 0   | **Yes**    | Found 6 already in `boxes[0]` → return `false`                         |
 
-Is d in rows[i]?
+---
 
-Is d in cols[j]?
-
-Is d in boxes[k]?
-If the answer to any of these is yes, we have a duplicate. The board is invalid, so we return false immediately.
-
-Record: If the number is valid, we record its presence by setting the corresponding flags to true in our tracking arrays.
-
-Return True: If we complete the entire loop without finding any duplicates, the board is valid.
-
-🏃‍♂️ Dry Run (Spot Check)
-Let's trace a few cells to see the logic in action, especially the box index calculation.
-
-Consider board[4][5] = '3':
-
-i = 4, j = 5, digit = 3.
-
-Box Index k = (4 / 3) * 3 + (5 / 3) = 1 * 3 + 1 = 4.
-
-Check: Is 3 in rows[4], cols[5], or boxes[4] yet? Assuming no, we proceed.
-
-Record: Mark 3 as seen in rows[4], cols[5], and boxes[4].
-
-Now, consider an invalid case where board[1][1] = '6' and we later encounter board[2][2] = '6':
-
-For board[1][1] = '6': i=1, j=1, d=6. Box k=0. We mark 6 in rows[1], cols[1], boxes[0].
-
-For board[2][2] = '6': i=2, j=2, d=6. Box k=0.
-
-Check: Is 6 in rows[2]? No. Is 6 in cols[2]? No. Is 6 in boxes[0]? Yes!
-
-A duplicate is found in the same 3x3 box. We immediately return false.
+✅ **Conclusion:**  
+By checking **rows, columns, and boxes** in a single traversal, we reduce unnecessary passes and achieve an efficient O(1) space per cell.
+---
 
 💻 C++ Code
-C++
-
+```
 #include <vector>
 
 class Solution {
@@ -172,11 +170,14 @@ public:
         return true; // No duplicates found
     }
 };
+```
+---
+
 📈 Time & Space Complexity
 Complexity	Value	Justification
 Time	O(1)	We iterate through a 9x9 board, which is a fixed size (81 cells). The number of operations does not change with any "input size N", making it constant time.
 Space	O(1)	We use three 9x9 arrays to store the state. Since the size of these arrays is fixed and does not depend on the input, the space complexity is also constant.
-
+---
 Export to Sheets
 🏷️ Tags
 #Array #HashTable #Matrix #LeetCode-Medium
