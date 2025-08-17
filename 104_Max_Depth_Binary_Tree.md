@@ -26,7 +26,11 @@ Output:
 C++
 
 3
+
+```
+---
 ✅ Example 2:
+```
 Input:
 
 C++
@@ -37,10 +41,14 @@ Output:
 C++
 
 2
+```
+---
 📌 Constraints
 The number of nodes in the tree is in the range [0, 10^4].
 
 -100 <= Node.val <= 100.
+
+---
 
 ## 💡 Pattern & Approach
 This problem can be solved efficiently using **Tree Traversal** techniques:  
@@ -105,11 +113,12 @@ Given:
 
 **Final Answer:** `3`
 
+---
 
 💻 C++ Code
 Approach 1: Recursive DFS
 C++
-
+```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -135,9 +144,11 @@ public:
         return 1 + std::max(leftDepth, rightDepth);
     }
 };
+```
+---
 Approach 2: Iterative BFS
 C++
-
+```
 #include <queue>
 
 class Solution {
@@ -169,12 +180,15 @@ public:
         return depth;
     }
 };
+```
+---
+
 📈 Time & Space Complexity
 Approach	Time Complexity	Space Complexity
 Recursive DFS	O(N)	O(H)
 Iterative BFS	O(N)	O(W)
 
-Export to Sheets
+--- 
 N: Number of nodes in the tree.
 
 H: Height of the tree. This is the space for the recursion call stack. For a balanced tree, H
@@ -184,5 +198,6 @@ logN. For a skewed tree, H=N.
 W: Maximum width of the tree. This is the space for the queue. For a complete binary tree, W
 approxN/2.
 
+---
 🏷️ Tags
 #Tree #DepthFirstSearch #BreadthFirstSearch #Recursion #LeetCode-Easy
