@@ -46,97 +46,100 @@ The number of nodes in both lists is in the range [0, 50].
 -100 <= Node.val <= 100.
 
 Both list1 and list2 are sorted in non-decreasing order.
+
+---
+
+## 💡 Pattern & Approach
+The core pattern is an **iterative two-pointer merge**, similar to the merge step in **Merge Sort**.  
+
+We can solve this using two strategies:  
+1. **Creating a new list** (extra memory)  
+2. **Splicing nodes in-place** (more efficient)
+
+---
+
+## 🔹 Approach 1: Iterative Merge by Creating New Nodes
+
+### 🔍 The Logic
+We build a completely **new list** by iterating through both input lists and creating a new node for each selected element.  
+
+### 📝 Steps
+1. **Initialize:**
+   - Create a dummy head node.  
+   - Maintain a `tail` pointer starting at the dummy.
+
+2. **Iterate & Compare:**
+   - While both `list1` and `list2` are non-null:  
+     - Compare values.  
+     - Pick the smaller one.  
+
+3. **Create & Append:**
+   - Create a new node with the smaller value.  
+   - Attach it to `tail->next`.  
+   - Move `tail` forward.  
+
+4. **Advance Pointers:**
+   - Move the pointer (`list1` or `list2`) from which the smaller value was chosen.  
+
+5. **Append Remainder:**
+   - Attach the remaining list (if any) to `tail`.  
+
+6. **Return Result:**
+   - Final merged list starts at `dummy->next`.  
+
+---
+
+## 🔹 Approach 2: Iterative Merge by Splicing Nodes (In-Place)
+
+### 🔍 The Logic
+Instead of creating new nodes, we **rearrange existing nodes’ pointers** to form the merged list.  
+This is more **space-efficient** (no extra allocations).
+
+### 📝 Steps
+1. **Handle Edge Cases:**
+   - If one list is empty → return the other list.  
+
+2. **Initialize Pointers:**
+   - Set the head of the merged list by comparing the first nodes of `list1` and `list2`.  
+   - Use a `tail` pointer starting at this head.  
+
+3. **Iterate & Splice:**
+   - While both lists are non-null:  
+     - Compare `list1->val` and `list2->val`.  
+     - Attach the smaller node to `tail->next`.  
+     - Advance both `tail` and the chosen list pointer.  
+
+4. **Append Remainder:**
+   - If one list ends, append the remaining list.  
+
+5. **Return Result:**
+   - Return the merged head.  
+
+---
+
+## 🏃‍♂️ Dry Run (In-Place Splicing)
+
+**Example:**  
+`list1 = [1,2,4]`, `list2 = [1,3,4]`
+
+| l1 | l2 | l1.val <= l2.val? | Action | Merged List State |
+|----|----|-------------------|--------|-------------------|
+| 1  | 1  | Yes | Head = l1. Tail = l1. Advance l1. | 1 |
+| 2  | 1  | No  | tail->next = l2. Tail = l2. Advance l2. | 1 → 1 |
+| 2  | 3  | Yes | tail->next = l1. Tail = l1. Advance l1. | 1 → 1 → 2 |
+| 4  | 3  | No  | tail->next = l2. Tail = l2. Advance l2. | 1 → 1 → 2 → 3 |
+| 4  | 4  | Yes | tail->next = l1. Tail = l1. Advance l1. | 1 → 1 → 2 → 3 → 4 |
+| null | 4 | (l1 is null) | Append remaining l2. | 1 → 1 → 2 → 3 → 4 → 4 |
+
+---
+
+✅ **Conclusion:**  
+The loop finishes when one list is null.  
+Remaining nodes (if any) are appended.  
+The final merged list is:  
 ```
-----
-
-💡 Pattern & Approach
-The core pattern is an iterative two-pointer merge, similar to the merge step in Merge Sort. We'll compare two implementation strategies: one that creates a new list and another that rearranges the existing nodes (in-place splicing).
-
-Approach 1: Iterative Merge by Creating New Nodes
-🔍 The Logic
-This method is straightforward. We build a completely new list by iterating through both input lists and creating a new node for each element we select.
-
-Steps:
-Initialize:
-
-Create a dummy head node to serve as a starting point for the new list.
-
-Create a tail pointer, initially pointing to dummy, to build the new list.
-
-Iterate and Compare:
-
-Loop as long as both list1 and list2 have nodes.
-
-Compare the values at the current nodes of list1 and list2.
-
-Create and Append:
-
-Create a new node with the smaller value.
-
-Attach this new node to tail->next.
-
-Advance the tail pointer to this new node.
-
-Advance Pointers:
-
-Move the pointer (list1 or list2) of the list from which the smaller value was taken.
-
-Append Remainder:
-
-After the loop, one of the lists may still have nodes. Append the entire remaining list to the tail.
-
-Return Result:
-
-Return dummy->next, which is the head of the newly created merged list.
-
-Approach 2: Iterative Merge by Splicing Nodes (In-Place)
-🔍 The Logic
-This is a more memory-efficient and performant approach. Instead of creating new nodes (which involves memory allocation overhead), we rearrange the next pointers of the existing nodes to form the final sorted list.
-
-Steps:
-Handle Edge Cases:
-
-If either list is empty, return the other list.
-
-Initialize Pointers:
-
-Determine the head of the final list by comparing the first nodes of list1 and list2.
-
-Set a tail pointer to this head node.
-
-Iterate and Splice:
-
-Loop as long as both lists still have nodes.
-
-Compare the values of the current nodes.
-
-Set tail->next to point to the node with the smaller value.
-
-Advance the tail pointer to the node you just attached.
-
-Advance Pointers:
-
-Move the pointer (list1 or list2) of the list that provided the node.
-
-Append Remainder:
-
-After the loop, attach the rest of the non-empty list to the tail.
-
-Return Result:
-
-Return the original head of the merged list.
-
-🏃‍♂️ Dry Run (In-Place Splicing)
-Example: list1 = [1,2,4], list2 = [1,3,4]
-
-l1	l2	l1.val <= l2.val?	Action	Merged List State
-1	1	Yes	head is l1. tail points to l1. Advance l1.	1
-2	1	No	tail->next = l2. tail is now l2. Advance l2.	1 -> 1
-2	3	Yes	tail->next = l1. tail is now l1. Advance l1.	1 -> 1 -> 2
-4	3	No	tail->next = l2. tail is now l2. Advance l2.	1 -> 1 -> 2 -> 3
-4	4	Yes	tail->next = l1. tail is now l1. Advance l1.	1 -> 1 -> 2 -> 3 -> 4
-null	4	(l1 is null)	Append remaining l2. tail->next = l2.	1 -> 1 -> 2 -> 3 -> 4 -> 4
-✅ Conclusion: The loop finishes and the remaining part of l2 is attached.
+[1, 1, 2, 3, 4, 4]
+```
 
 ---
 💻 C++ Code
