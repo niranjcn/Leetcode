@@ -19,43 +19,35 @@
 ## 📥 Example Inputs
 
 ### ✅ Example 1:
-
-**Input:**
-```cpp
+```
+Input:
 list1 = [1,2,4], list2 = [1,3,4]
 Output:
-
-C++
-
 [1,1,2,3,4,4]
+```
+---
 ✅ Example 2:
-Input:
-
-C++
-
+```Input:
 list1 = [], list2 = []
 Output:
-
-C++
-
 []
+```
+---
 ✅ Example 3:
-Input:
-
-C++
-
+```Input:
 list1 = [], list2 = [0]
 Output:
-
-C++
-
 [0]
+```
+---
 📌 Constraints
 The number of nodes in both lists is in the range [0, 50].
 
 -100 <= Node.val <= 100.
 
 Both list1 and list2 are sorted in non-decreasing order.
+```
+----
 
 💡 Pattern & Approach
 The core pattern is an iterative two-pointer merge, similar to the merge step in Merge Sort. We'll compare two implementation strategies: one that creates a new list and another that rearranges the existing nodes (in-place splicing).
@@ -146,10 +138,11 @@ l1	l2	l1.val <= l2.val?	Action	Merged List State
 null	4	(l1 is null)	Append remaining l2. tail->next = l2.	1 -> 1 -> 2 -> 3 -> 4 -> 4
 ✅ Conclusion: The loop finishes and the remaining part of l2 is attached.
 
+---
 💻 C++ Code
 Approach 1: Creating New Nodes
 C++
-
+```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
@@ -183,9 +176,12 @@ public:
         return dummy->next;
     }
 };
+```
+---
+
 Approach 2: Splicing Nodes (In-Place, 0ms)
 C++
-
+```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
@@ -227,6 +223,8 @@ public:
         return head;
     }
 };
+```
+
 📈 Time & Space Complexity
 Approach	Time Complexity	Space Complexity
 Creating New Nodes	O(m+n)	O(m+n)
