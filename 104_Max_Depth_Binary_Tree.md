@@ -42,94 +42,69 @@ The number of nodes in the tree is in the range [0, 10^4].
 
 -100 <= Node.val <= 100.
 
-💡 Pattern & Approach
-Finding the depth of a tree is a classic traversal problem. The two primary methods are Depth-First Search (DFS), which is naturally recursive, and Breadth-First Search (BFS), which is naturally iterative using a queue.
+## 💡 Pattern & Approach
+This problem can be solved efficiently using **Tree Traversal** techniques:  
+- **Depth-First Search (DFS)** (recursive divide & conquer)  
+- **Breadth-First Search (BFS)** (iterative level-order with a queue)
 
-Approach 1: Depth-First Search (DFS) - Recursive
-🔍 The Logic
-This approach uses a "divide and conquer" strategy. The depth of any node is 1 plus the maximum depth of its children. We can apply this logic recursively down the tree.
+---
 
-Steps:
-Base Case:
+## 🔍 The Logic
 
-If the current node is null, it has no depth. Return 0.
+### 🔹 Approach 1: Depth-First Search (DFS - Recursive)
 
-Recursive Calls:
+1. **Base Case**  
+   - If the current node is `null`, return `0`.
 
-Recursively calculate the depth of the left subtree: leftDepth = maxDepth(root->left).
+2. **Recursive Calls**  
+   - Compute depth of left subtree → `leftDepth = maxDepth(root->left)`  
+   - Compute depth of right subtree → `rightDepth = maxDepth(root->right)`
 
-Recursively calculate the depth of the right subtree: rightDepth = maxDepth(root->right).
+3. **Combine Results**  
+   - Depth of the current node = `1 + max(leftDepth, rightDepth)`
 
-Combine Results:
+4. **Termination**  
+   - The recursion ends when we return the depth of the root.
 
-The depth at the current node is 1 (for the node itself) plus the greater of the two subtree depths.
+---
 
-Return 1 + max(leftDepth, rightDepth).
+### 🔹 Approach 2: Breadth-First Search (BFS - Iterative)
 
-Approach 2: Breadth-First Search (BFS) - Iterative
-🔍 The Logic
-This approach traverses the tree level by level. The maximum depth is simply the total number of levels in the tree. We use a queue to manage the nodes at each level.
+1. **Handle Empty Tree**  
+   - If `root == null`, return `0`.
 
-Steps:
-Handle Empty Tree:
+2. **Initialize**  
+   - Create a queue, push the `root`.  
+   - Set `depth = 0`.
 
-If the root is null, return 0.
+3. **Level-Order Traversal**  
+   - While queue is not empty:  
+     - Get `size = queue.size()` (number of nodes at current level)  
+     - Increment `depth` (since we are at a new level)  
+     - Process `size` nodes:  
+       - Pop node from queue  
+       - Push its non-null children (`left`, `right`)
 
-Initialize:
+4. **Return Result**  
+   - Once queue is empty, return `depth`.
 
-Create a queue and add the root node to it.
+---
 
-Initialize a depth counter to 0.
+## 🏃‍♂️ Dry Run Example (DFS)
 
-Level-Order Traversal:
+Given:  
+`root = [3, 9, 20, null, null, 15, 7]`
 
-Loop as long as the queue is not empty.
+| Call           | Left Depth | Right Depth | Depth at Node |
+|----------------|------------|-------------|---------------|
+| maxDepth(9)    | 0          | 0           | 1             |
+| maxDepth(15)   | 0          | 0           | 1             |
+| maxDepth(7)    | 0          | 0           | 1             |
+| maxDepth(20)   | 1          | 1           | 2             |
+| maxDepth(3)    | 1          | 2           | 3             |
 
-Inside the loop, get the size of the queue. This represents the number of nodes at the current level.
+**Final Answer:** `3`
 
-Increment depth (since we are starting a new level).
-
-Process Each Level:
-
-Loop size times:
-
-Dequeue a node.
-
-Enqueue its non-null left and right children.
-
-Return Result:
-
-Once the queue is empty, all levels have been processed. Return the final depth.
-
-🏃‍♂️ Dry Run (Recursive DFS)
-Example: root = [3, 9, 20, null, null, 15, 7]
-
-The function calls would unfold like this:
-
-maxDepth(3)
-|
-|--- 1 + max( maxDepth(9), maxDepth(20) )
-| |
-| |--- maxDepth(9)
-| | |
-| | |--- 1 + max( maxDepth(null), maxDepth(null) )
-| | | |
-| | | |--- maxDepth(null) returns 0
-| | | |--- maxDepth(null) returns 0
-| | |
-| | `--- returns 1 + max(0, 0) = 1`
-| |
-| `--- maxDepth(20)`
-| |
-| |--- 1 + max( maxDepth(15), maxDepth(7) )
-| | |
-| | |--- maxDepth(15) returns 1
-| | |--- maxDepth(7) returns 1
-| | |
-| | `--- returns 1 + max(1, 1) = 2`
-|
-`--- returns 1 + max(1, 2) = 3`
-✅ Conclusion: The final result is 3.
 
 💻 C++ Code
 Approach 1: Recursive DFS
