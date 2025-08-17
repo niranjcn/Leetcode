@@ -115,6 +115,31 @@ Given:
 
 ---
 
+```
+maxDepth(3)
+│
+├── maxDepth(9)
+│   ├── maxDepth(null) → 0
+│   └── maxDepth(null) → 0
+│   → Depth at 9 = 1 + max(0, 0) = 1
+│
+└── maxDepth(20)
+    ├── maxDepth(15)
+    │   ├── maxDepth(null) → 0
+    │   └── maxDepth(null) → 0
+    │   → Depth at 15 = 1 + max(0, 0) = 1
+    │
+    └── maxDepth(7)
+        ├── maxDepth(null) → 0
+        └── maxDepth(null) → 0
+        → Depth at 7 = 1 + max(0, 0) = 1
+    → Depth at 20 = 1 + max(1, 1) = 2
+
+→ Depth at 3 = 1 + max(1, 2) = 3
+
+```
+---
+
 💻 C++ Code
 Approach 1: Recursive DFS
 C++
