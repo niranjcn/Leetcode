@@ -34,77 +34,72 @@ Output: false
 The number of nodes in both trees is in the range [0, 100].
 -10^4 <= Node.val <= 10^4.
 
-💡 Pattern & Approach
-This problem is a classic tree traversal. The goal is to traverse both trees simultaneously and compare them at each step. The two main strategies are:
+## 💡 Pattern & Approach
+This problem can be solved efficiently using **Tree Traversal** techniques:  
+- **Depth-First Search (DFS)** (recursive divide & conquer)  
+- **Breadth-First Search (BFS)** (iterative level-order with a queue)
 
-Depth-First Search (DFS) (recursive)
+---
 
-Breadth-First Search (BFS) (iterative)
+## 🔍 The Logic
 
-🔍 The Logic
-🔹 Approach 1: Depth-First Search (DFS - Recursive)
-This approach recursively checks three conditions: the nodes' values must be equal, their left subtrees must be the same, and their right subtrees must be the same.
+### 🔹 Approach 1: Depth-First Search (DFS - Recursive)
 
-Base Case 1 (Both Null)
+1. **Base Case 1 (Both Null)**  
+   - If both `p` and `q` are `null`, return `true` (identical branch).
 
-If both p and q are null, they are identical at this branch. Return true.
+2. **Base Case 2 (Structure Mismatch)**  
+   - If only one of `p` or `q` is `null`, return `false` (structure differs).
 
-Base Case 2 (Structure Mismatch)
+3. **Base Case 3 (Value Mismatch)**  
+   - If `p->val != q->val`, return `false` (values differ).
 
-If only one of p or q is null, their structures differ. Return false.
+4. **Recursive Step**  
+   - If all checks pass, recursively check children:  
+     `isSameTree(p->left, q->left) && isSameTree(p->right, q->right)`
 
-Base Case 3 (Value Mismatch)
+---
 
-If the node values p->val and q->val are not equal, return false.
+### 🔹 Approach 2: Breadth-First Search (BFS - Iterative)
 
-Recursive Step
+1. **Initialize**  
+   - Create a queue for pairs of nodes: `{p, q}`.  
+   - Push the root pair to start.
 
-If all checks pass for the current nodes, recursively call the function on their children.
+2. **Iterate and Compare**  
+   - While the queue is not empty:  
+     - Dequeue a pair of nodes.  
+     - If both are `null`, continue.  
+     - If only one is `null` or values differ, return `false`.  
 
-Return isSameTree(p->left, q->left) && isSameTree(p->right, q->right).
+3. **Enqueue Children**  
+   - Push children pairs: `{p->left, q->left}` and `{p->right, q->right}`.
 
-🔹 Approach 2: Breadth-First Search (BFS - Iterative)
-This approach compares the trees level by level using a queue.
+4. **Return Result**  
+   - If the queue empties without returning `false`, all nodes matched. Return `true`.
 
-Initialize
+---
 
-Create a queue to hold pairs of corresponding nodes from p and q.
+## 🏃‍♂️ Dry Run Example (DFS Flow)
 
-Push the root pair {p, q} to start.
+Given:  
+`p = [1,2,1], q = [1,1,2]`
 
-Iterate and Compare
-
-While the queue is not empty, dequeue a pair of nodes.
-
-Validate Nodes
-
-Check the dequeued pair using the same logic as the recursive base cases: if both are null, continue; if one is null or values differ, return false.
-
-Enqueue Children
-
-If the pair is valid, enqueue their children as pairs: {p->left, q->left} and {p->right, q->right}.
-
-Return Result
-
-If the queue becomes empty without returning false, all nodes matched. Return true.
-
-🏃‍♂️ Dry Run Example (DFS)
-Given:
-p = [1,2,1], q = [1,1,2]
-
+```plaintext
 isSameTree(p_root(1), q_root(1))
 │
-├── Checks: Both nodes are valid. Their values are equal (1 == 1). OK.
+├── Checks: Both nodes valid, values equal (1 == 1)
 │
 ├── isSameTree(p_left(2), q_left(1))
 │   │
-│   └── Checks: Both nodes are valid. Their values are NOT equal (2 != 1).
+│   └── Checks: Both nodes valid, values NOT equal (2 != 1)
 │   └── returns false
 │
-└── The first recursive call on the left subtrees returned false.
-    The overall '&&' expression becomes false.
+└── The left subtree returned false
+    The overall '&&' becomes false
 
-→ Final result for isSameTree(p_root, q_root) is false.
+→ Final result for isSameTree(p_root, q_root) = false
+
 💻 C++ Code
 Approach 1: Recursive DFS
 
