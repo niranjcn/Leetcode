@@ -57,54 +57,65 @@ The number of nodes in each linked list is in the range [1, 100].
 
 It is guaranteed that the list represents a number that does not have leading zeros.
 
-💡 Pattern & Approach
-The problem requires a direct simulation of elementary-school addition, moving from the least significant digit to the most significant. The "reverse order" storage of digits in the linked lists makes this straightforward.
+## 💡 Pattern & Approach
+The problem requires a **direct simulation of elementary-school addition**, moving from the **least significant digit** to the most significant.  
 
-Approach: Elementary Math Simulation
-🔍 The Logic
-We iterate through both lists simultaneously, just like adding numbers on paper column by column. We sum the digits at each position along with any carry from the previous position. The sum's unit digit forms the new node in our result list, and the tens digit is carried over to the next calculation.
+The "reverse order" storage of digits in the linked lists makes this straightforward.
 
-Steps:
-Initialize:
+---
 
-Create a dummy head node to simplify handling the start of the result list.
+## 🔍 Approach: Elementary Math Simulation
 
-Initialize a carry variable to 0.
+We iterate through both lists simultaneously, just like adding numbers on paper column by column.  
+At each step, we add digits plus any carry from the previous step.  
+- The **unit digit** of the sum becomes the new node.  
+- The **tens digit** (if any) becomes the carry for the next calculation.  
 
-Iterate Through Lists:
+---
 
-Loop as long as l1 has nodes, l2 has nodes, or there is a carry value left over. This handles lists of different lengths and the final carry.
+### 📝 Steps
+1. **Initialize:**
+   - Create a dummy head node to simplify handling the start of the result list.  
+   - Initialize `carry = 0`.
 
-Calculate Sum:
+2. **Iterate Through Lists:**
+   - Loop while `l1`, `l2`, or `carry` is non-zero.  
+   - If a list ends, treat its missing values as `0`.
 
-For each position, calculate sum = (value from l1) + (value from l2) + carry.
+3. **Calculate Sum:**
+   - `sum = (l1 ? l1->val : 0) + (l2 ? l2->val : 0) + carry`.
 
-If a list is shorter, treat its missing node's value as 0.
+4. **Create New Node:**
+   - New node value = `sum % 10`.  
+   - Append this node to the result list.
 
-Create New Node:
+5. **Update Carry:**
+   - `carry = sum / 10`.
 
-The value for the new node is the last digit of the sum: sum % 10.
+6. **Return Result:**
+   - The final answer is `dummy->next`.
 
-Append this new node to our result list.
+---
 
-Update Carry:
+## 🏃‍♂️ Dry Run
 
-The new carry for the next position is the first digit of the sum: sum / 10.
+**Example:**  
+`l1 = [2,4,3]`, `l2 = [5,6,4]`
 
-Return Result:
+| l1 Val | l2 Val | carry (in) | sum | New Node (`sum % 10`) | carry (out) | Result List |
+|--------|--------|------------|-----|-----------------------|--------------|-------------|
+| 2      | 5      | 0          | 7   | 7                     | 0            | [7]         |
+| 4      | 6      | 0          | 10  | 0                     | 1            | [7, 0]      |
+| 3      | 4      | 1          | 8   | 8                     | 0            | [7, 0, 8]   |
 
-The loop terminates when both lists are exhausted and there's no remaining carry. The dummy node's next pointer is the head of the final result list.
+---
 
-🏃‍♂️ Dry Run
-Example: l1 = [2,4,3], l2 = [5,6,4]
+✅ **Conclusion:**  
+Both lists are now `null` and `carry = 0`.  
+The loop terminates, and the **final answer** is:  
+```cpp
+[7, 0, 8]
 
-l1 Val	l2 Val	carry (in)	sum	New Node (sum % 10)	carry (out)	Result List
-2	5	0	7	7	0	[7]
-4	6	0	10	0	1	[7, 0]
-3	4	1	8	8	0	[7, 0, 8]
-
-Export to Sheets
-✅ Conclusion: Both lists are now null and carry is 0. The loop terminates. Final answer is [7,0,8].
 
 💻 C++ Code
 C++
