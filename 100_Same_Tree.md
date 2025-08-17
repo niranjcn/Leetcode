@@ -17,23 +17,27 @@
 ## 📥 Example Inputs
 
 ### ✅ Example 1:
-```cpp
+```
 Input: p = [1,2,3], q = [1,2,3]
 Output: true
+```
+---
 ✅ Example 2:
-C++
-
-Input: p = [1,2], q = [1,null,2]
+```Input: p = [1,2], q = [1,null,2]
 Output: false
+```
+---
 ✅ Example 3:
 C++
-
+```
 Input: p = [1,2,1], q = [1,1,2]
 Output: false
+```
+---
 📌 Constraints
 The number of nodes in both trees is in the range [0, 100].
 -10^4 <= Node.val <= 10^4.
-
+---
 ## 💡 Pattern & Approach
 This problem can be solved efficiently using **Tree Traversal** techniques:  
 - **Depth-First Search (DFS)** (recursive divide & conquer)  
@@ -99,12 +103,13 @@ isSameTree(p_root(1), q_root(1))
     The overall '&&' becomes false
 
 → Final result for isSameTree(p_root, q_root) = false
-
+```
+---
 💻 C++ Code
 Approach 1: Recursive DFS
 
 C++
-
+```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -129,10 +134,11 @@ public:
         return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
     }
 };
+```
 Approach 2: Iterative BFS
 
 C++
-
+```
 #include <queue>
 #include <utility>
 
@@ -159,6 +165,8 @@ public:
         return true; // Queue emptied, all nodes matched.
     }
 };
+```
+---
 📈 Time & Space Complexity
 Approach       Time Complexity   Space Complexity
 Recursive DFS  O(N)              O(H)
@@ -168,6 +176,6 @@ N: Number of nodes in the smaller tree.
 H: Height of the tree. This is the space for the recursion call stack. For a balanced tree, H approx logN. For a skewed tree, H = N.
 
 W: Maximum width of the tree. This is the space for the queue. For a complete binary tree, W approx N/2.
-
+---
 🏷️ Tags
 #Tree #DepthFirstSearch #BreadthFirstSearch #Recursion #LeetCode-Easy
