@@ -16,19 +16,25 @@
 
 ### ✅ Example 1:
 
-```cpp
+```
 Input: root = [4,2,7,1,3,6,9]
 Output: [4,7,2,9,6,3,1]
+```
+---
 ✅ Example 2:
 C++
-
+```
 Input: root = [2,1,3]
 Output: [2,3,1]
+```
+---
 ✅ Example 3:
 C++
-
+```
 Input: root = []
 Output: []
+```
+---
 📌 Constraints
 The number of nodes in the tree is in the range [0, 100].
 
@@ -40,6 +46,8 @@ This is a classic tree traversal problem where the structure of the tree is modi
 Depth-First Search (DFS) (recursive)
 
 Breadth-First Search (BFS) (iterative)
+
+---
 
 🔍 The Logic
 🔹 Approach 1: Depth-First Search (DFS - Recursive)
@@ -117,7 +125,7 @@ invertTree(4)
 Approach 1: Recursive DFS
 
 C++
-
+```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -146,11 +154,14 @@ public:
         
         return root;
     }
+
 };
+```
+---
 Approach 2: Iterative BFS
 
 C++
-
+```
 #include <queue>
 
 class Solution {
@@ -184,6 +195,8 @@ public:
         return root;
     }
 };
+```
+---
 📈 Time & Space Complexity
 Approach       Time Complexity   Space Complexity
 Recursive DFS  O(N)              O(H)
@@ -193,6 +206,6 @@ N: Number of nodes in the tree.
 H: Height of the tree. This is the space for the recursion call stack. For a balanced tree, H approx logN. For a skewed tree, H = N.
 
 W: Maximum width of the tree. This is the space for the queue. For a complete binary tree, W approx N/2.
-
+---
 🏷️ Tags
 #Tree #DepthFirstSearch #BreadthFirstSearch #Recursion #LeetCode-Easy
