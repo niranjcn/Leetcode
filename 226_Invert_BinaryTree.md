@@ -40,87 +40,83 @@ The number of nodes in the tree is in the range [0, 100].
 
 -100 <= Node.val <= 100.
 
-💡 Pattern & Approach
-This is a classic tree traversal problem where the structure of the tree is modified. The inversion can be performed using either a top-down or bottom-up approach.
-
-Depth-First Search (DFS) (recursive)
-
-Breadth-First Search (BFS) (iterative)
+## 💡 Pattern & Approach
+This problem can be solved using **Tree Traversal** techniques:  
+- **Depth-First Search (DFS)** (recursive divide & conquer)  
+- **Breadth-First Search (BFS)** (iterative level-order with a queue)
 
 ---
 
-🔍 The Logic
-🔹 Approach 1: Depth-First Search (DFS - Recursive)
-This approach recursively traverses the tree. At each node, it swaps the left and right children.
+## 🔍 The Logic
 
-Base Case
+### 🔹 Approach 1: Depth-First Search (DFS - Recursive)
 
-If the current node is null, there is nothing to invert, so return null.
+1. **Base Case**  
+   - If `root == null`, return `null` (nothing to invert).
 
-Swap Children
+2. **Swap Children**  
+   - Swap the left and right child of the current node.
 
-Swap the current node's left and right child pointers.
+3. **Recursive Calls**  
+   - Call `invertTree(root->left)`  
+   - Call `invertTree(root->right)`
 
-Recursive Calls
+4. **Return Root**  
+   - After recursion finishes, return the modified root.
 
-Recursively call the function on the (new) left child: invertTree(root->left).
+---
 
-Recursively call the function on the (new) right child: invertTree(root->right).
+### 🔹 Approach 2: Breadth-First Search (BFS - Iterative)
 
-Return Root
+1. **Handle Empty Tree**  
+   - If `root == null`, return `null`.
 
-After all recursive calls are complete, the entire tree is inverted. Return the root.
+2. **Initialize**  
+   - Create a queue and push the root.
 
-🔹 Approach 2: Breadth-First Search (BFS - Iterative)
-This approach inverts the tree level by level using a queue.
+3. **Level-Order Traversal**  
+   - While queue is not empty:  
+     - Dequeue current node.  
+     - Swap its left and right children.  
+     - Enqueue non-null children.
 
-Handle Empty Tree
+4. **Return Result**  
+   - Once the queue is empty, the entire tree is inverted. Return root.
 
-If root == null, return null.
+---
 
-Initialize
+## 🏃‍♂️ Dry Run Example (DFS Flow)
 
-Create a queue and push the root onto it.
+Given:  
+`root = [4,2,7,1,3,6,9]`
 
-Level-Order Traversal
-
-While the queue is not empty:
-
-Dequeue the current node.
-
-Swap its left and right children.
-
-If the (new) left child is not null, enqueue it.
-
-If the (new) right child is not null, enqueue it.
-
-Return Result
-
-Once the queue is empty, all nodes have been processed. Return the root.
-
-🏃‍♂️ Dry Run Example (DFS)
-Given:
-root = [4,2,7,1,3,6,9]
-
+```plaintext
 invertTree(4)
 │
-├── Swap children of node 4. Left becomes 7, Right becomes 2.
+├── Swap children of node 4 → Left = 7, Right = 2
 │
-├── invertTree(node 7)
+├── invertTree(7)
 │   │
-│   ├── Swap children of node 7. Left becomes 9, Right becomes 6.
+│   ├── Swap children of node 7 → Left = 9, Right = 6
 │   │
-│   ├── invertTree(node 9) → Swaps its null children. Returns.
-│   └── invertTree(node 6) → Swaps its null children. Returns.
+│   ├── invertTree(9)
+│   │   └── Swaps null children → returns
+│   │
+│   └── invertTree(6)
+│       └── Swaps null children → returns
 │
-└── invertTree(node 2)
+└── invertTree(2)
     │
-    ├── Swap children of node 2. Left becomes 3, Right becomes 1.
+    ├── Swap children of node 2 → Left = 3, Right = 1
     │
-    ├── invertTree(node 3) → Swaps its null children. Returns.
-    └── invertTree(node 1) → Swaps its null children. Returns.
+    ├── invertTree(3)
+    │   └── Swaps null children → returns
+    │
+    └── invertTree(1)
+        └── Swaps null children → returns
 
-→ Final tree root is returned.
+→ Final tree is fully inverted, return root(4)
+
 💻 C++ Code
 Approach 1: Recursive DFS
 
