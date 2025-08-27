@@ -135,7 +135,7 @@ public:
             }
         }
         
-        // If the stack is empty at the end, all brackets were matched.
+        
         return st.empty();
     }
 };
