@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **44** problems
+Total: **45** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -48,3 +48,4 @@ Total: **44** problems
 | 42 | 74. Search a 2D Matrix | Binary Search | Medium | [74_Search_a_2D_Matrix.py](74_Search_a_2D_Matrix.py) |
 | 43 | 875. Koko Eating Bananas | Binary Search | Medium | [875_Koko_Eating_Bananas.py](875_Koko_Eating_Bananas.py) |
 | 44 | 153. Find Minimum in Rotated Sorted Array | Binary Search | Medium | [153_Find_Minimum_in_Rotated_Sorted_Array.py](153_Find_Minimum_in_Rotated_Sorted_Array.py) |
+| 45 | 33. Search in Rotated Sorted Array | Binary Search | Medium | [33_Search_in_Rotated_Sorted_Array.py](33_Search_in_Rotated_Sorted_Array.py) |
