@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **46** problems
+Total: **47** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -50,3 +50,4 @@ Total: **46** problems
 | 44 | 153. Find Minimum in Rotated Sorted Array | Binary Search | Medium | [153_Find_Minimum_in_Rotated_Sorted_Array.py](153_Find_Minimum_in_Rotated_Sorted_Array.py) |
 | 45 | 33. Search in Rotated Sorted Array | Binary Search | Medium | [33_Search_in_Rotated_Sorted_Array.py](33_Search_in_Rotated_Sorted_Array.py) |
 | 46 | 981. Time Based Key-Value Store | Binary Search | Medium | [981_Time_Based_Key_Value_Store.py](981_Time_Based_Key_Value_Store.py) |
+| 47 | 4. Median of Two Sorted Arrays | Binary Search | Hard | [4_Median_of_Two_Sorted_Arrays.py](4_Median_of_Two_Sorted_Arrays.py) |
