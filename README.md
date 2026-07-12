@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **47** problems
+Total: **48** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -51,3 +51,4 @@ Total: **47** problems
 | 45 | 33. Search in Rotated Sorted Array | Binary Search | Medium | [33_Search_in_Rotated_Sorted_Array.py](33_Search_in_Rotated_Sorted_Array.py) |
 | 46 | 981. Time Based Key-Value Store | Binary Search | Medium | [981_Time_Based_Key_Value_Store.py](981_Time_Based_Key_Value_Store.py) |
 | 47 | 4. Median of Two Sorted Arrays | Binary Search | Hard | [4_Median_of_Two_Sorted_Arrays.py](4_Median_of_Two_Sorted_Arrays.py) |
+| 48 | 3986. Number of Elapsed Seconds Between Two Times | Math | Easy | [3986_Number_of_Elapsed_Seconds_Between_Two_Times.py](3986_Number_of_Elapsed_Seconds_Between_Two_Times.py) |
