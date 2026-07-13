@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **50** problems
+Total: **51** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -54,3 +54,4 @@ Total: **50** problems
 | 48 | 3986. Number of Elapsed Seconds Between Two Times | Math | Easy | [3986_Number_of_Elapsed_Seconds_Between_Two_Times.py](3986_Number_of_Elapsed_Seconds_Between_Two_Times.py) |
 | 49 | 1331. Rank Transform of an Array | HashMap | Easy | [1331_Rank_Transform_of_an_Array.py](1331_Rank_Transform_of_an_Array.py) |
 | 50 | 162. Find Peak Element | Binary Search | Medium | [162_Find_Peak_Element.py](162_Find_Peak_Element.py) |
+| 51 | 154. Find Minimum in Rotated Sorted Array II | Binary Search | Hard | [154_Find_Minimum_in_Rotated_Sorted_Array_II.py](154_Find_Minimum_in_Rotated_Sorted_Array_II.py) |
