@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **51** problems
+Total: **52** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -55,3 +55,4 @@ Total: **51** problems
 | 49 | 1331. Rank Transform of an Array | HashMap | Easy | [1331_Rank_Transform_of_an_Array.py](1331_Rank_Transform_of_an_Array.py) |
 | 50 | 162. Find Peak Element | Binary Search | Medium | [162_Find_Peak_Element.py](162_Find_Peak_Element.py) |
 | 51 | 154. Find Minimum in Rotated Sorted Array II | Binary Search | Hard | [154_Find_Minimum_in_Rotated_Sorted_Array_II.py](154_Find_Minimum_in_Rotated_Sorted_Array_II.py) |
+| 52 | 1011. Capacity To Ship Packages Within D Days | Binary Search | Medium | [1011_Capacity_To_Ship_Packages_Within_D_Days.py](1011_Capacity_To_Ship_Packages_Within_D_Days.py) |
