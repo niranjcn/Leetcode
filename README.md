@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **54** problems
+Total: **55** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -58,3 +58,4 @@ Total: **54** problems
 | 52 | 1011. Capacity To Ship Packages Within D Days | Binary Search | Medium | [1011_Capacity_To_Ship_Packages_Within_D_Days.py](1011_Capacity_To_Ship_Packages_Within_D_Days.py) |
 | 53 | 206. Reverse Linked List | Linked List | Easy | [206_Reverse_Linked_List.py](206_Reverse_Linked_List.py) |
 | 54 | 21. Merge Two Sorted Lists | Linked List | Easy | [21_Merge_Two_Sorted_Lists.py](21_Merge_Two_Sorted_Lists.py) |
+| 55 | 141. Linked List Cycle | Linked List | Easy | [141_Linked_List_Cycle.py](141_Linked_List_Cycle.py) |
