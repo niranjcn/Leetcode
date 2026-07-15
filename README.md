@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **53** problems
+Total: **54** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -57,3 +57,4 @@ Total: **53** problems
 | 51 | 154. Find Minimum in Rotated Sorted Array II | Binary Search | Hard | [154_Find_Minimum_in_Rotated_Sorted_Array_II.py](154_Find_Minimum_in_Rotated_Sorted_Array_II.py) |
 | 52 | 1011. Capacity To Ship Packages Within D Days | Binary Search | Medium | [1011_Capacity_To_Ship_Packages_Within_D_Days.py](1011_Capacity_To_Ship_Packages_Within_D_Days.py) |
 | 53 | 206. Reverse Linked List | Linked List | Easy | [206_Reverse_Linked_List.py](206_Reverse_Linked_List.py) |
+| 54 | 21. Merge Two Sorted Lists | Linked List | Easy | [21_Merge_Two_Sorted_Lists.py](21_Merge_Two_Sorted_Lists.py) |
