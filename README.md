@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **59** problems
+Total: **60** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -63,3 +63,4 @@ Total: **59** problems
 | 57 | 143. Reorder List | Linked List | Medium | [143_Reorder_List.py](143_Reorder_List.py) |
 | 58 | 19. Remove Nth Node From End of List | Linked List | Medium | [19_Remove_Nth_Node_From_End_of_List.py](19_Remove_Nth_Node_From_End_of_List.py) |
 | 59 | 169. Majority Element | HashMap | Easy | [169_Majority_Element.py](169_Majority_Element.py) |
+| 60 | 9. Palindrome Number | String | Easy | [9_Palindrome_Number.py](9_Palindrome_Number.py) |
