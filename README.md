@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **56** problems
+Total: **57** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -60,3 +60,4 @@ Total: **56** problems
 | 54 | 21. Merge Two Sorted Lists | Linked List | Easy | [21_Merge_Two_Sorted_Lists.py](21_Merge_Two_Sorted_Lists.py) |
 | 55 | 141. Linked List Cycle | Linked List | Easy | [141_Linked_List_Cycle.py](141_Linked_List_Cycle.py) |
 | 56 | 3658. GCD of Odd and Even Sums | Math | Easy | [3658_GCD_of_Odd_and_Even_Sums.py](3658_GCD_of_Odd_and_Even_Sums.py) |
+| 57 | 143. Reorder List | Linked List | Medium | [143_Reorder_List.py](143_Reorder_List.py) |
