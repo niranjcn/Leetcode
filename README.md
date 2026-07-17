@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **57** problems
+Total: **58** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -61,3 +61,4 @@ Total: **57** problems
 | 55 | 141. Linked List Cycle | Linked List | Easy | [141_Linked_List_Cycle.py](141_Linked_List_Cycle.py) |
 | 56 | 3658. GCD of Odd and Even Sums | Math | Easy | [3658_GCD_of_Odd_and_Even_Sums.py](3658_GCD_of_Odd_and_Even_Sums.py) |
 | 57 | 143. Reorder List | Linked List | Medium | [143_Reorder_List.py](143_Reorder_List.py) |
+| 58 | 19. Remove Nth Node From End of List | Linked List | Medium | [19_Remove_Nth_Node_From_End_of_List.py](19_Remove_Nth_Node_From_End_of_List.py) |
