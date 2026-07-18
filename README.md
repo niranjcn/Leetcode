@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **61** problems
+Total: **62** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -65,3 +65,4 @@ Total: **61** problems
 | 59 | 169. Majority Element | HashMap | Easy | [169_Majority_Element.py](169_Majority_Element.py) |
 | 60 | 9. Palindrome Number | String | Easy | [9_Palindrome_Number.py](9_Palindrome_Number.py) |
 | 61 | 1979. Find Greatest Common Divisor of Array | Math | Easy | [1979_Find_Greatest_Common_Divisor_of_Array.py](1979_Find_Greatest_Common_Divisor_of_Array.py) |
+| 62 | 138. Copy List with Random Pointer | Linked List | Medium | [138_Copy_List_with_Random_Pointer.py](138_Copy_List_with_Random_Pointer.py) |
