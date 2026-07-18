@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **63** problems
+Total: **64** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -67,3 +67,4 @@ Total: **63** problems
 | 61 | 1979. Find Greatest Common Divisor of Array | Math | Easy | [1979_Find_Greatest_Common_Divisor_of_Array.py](1979_Find_Greatest_Common_Divisor_of_Array.py) |
 | 62 | 138. Copy List with Random Pointer | Linked List | Medium | [138_Copy_List_with_Random_Pointer.py](138_Copy_List_with_Random_Pointer.py) |
 | 63 | 2. Add Two Numbers | Linked List | Medium | [2_Add_Two_Numbers.py](2_Add_Two_Numbers.py) |
+| 64 | 287. Find the Duplicate Number | Linked List | Medium | [287_Find_the_Duplicate_Number.py](287_Find_the_Duplicate_Number.py) |
