@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **60** problems
+Total: **61** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -64,3 +64,4 @@ Total: **60** problems
 | 58 | 19. Remove Nth Node From End of List | Linked List | Medium | [19_Remove_Nth_Node_From_End_of_List.py](19_Remove_Nth_Node_From_End_of_List.py) |
 | 59 | 169. Majority Element | HashMap | Easy | [169_Majority_Element.py](169_Majority_Element.py) |
 | 60 | 9. Palindrome Number | String | Easy | [9_Palindrome_Number.py](9_Palindrome_Number.py) |
+| 61 | 1979. Find Greatest Common Divisor of Array | Math | Easy | [1979_Find_Greatest_Common_Divisor_of_Array.py](1979_Find_Greatest_Common_Divisor_of_Array.py) |
