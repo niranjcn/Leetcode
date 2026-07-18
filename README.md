@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **62** problems
+Total: **63** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -66,3 +66,4 @@ Total: **62** problems
 | 60 | 9. Palindrome Number | String | Easy | [9_Palindrome_Number.py](9_Palindrome_Number.py) |
 | 61 | 1979. Find Greatest Common Divisor of Array | Math | Easy | [1979_Find_Greatest_Common_Divisor_of_Array.py](1979_Find_Greatest_Common_Divisor_of_Array.py) |
 | 62 | 138. Copy List with Random Pointer | Linked List | Medium | [138_Copy_List_with_Random_Pointer.py](138_Copy_List_with_Random_Pointer.py) |
+| 63 | 2. Add Two Numbers | Linked List | Medium | [2_Add_Two_Numbers.py](2_Add_Two_Numbers.py) |
