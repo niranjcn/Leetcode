@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **66** problems
+Total: **67** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -70,3 +70,4 @@ Total: **66** problems
 | 64 | 287. Find the Duplicate Number | Linked List | Medium | [287_Find_the_Duplicate_Number.py](287_Find_the_Duplicate_Number.py) |
 | 65 | 146. LRU Cache | Linked List | Medium | [146_LRU_Cache.py](146_LRU_Cache.py) |
 | 66 | 1260. Shift 2D Grid | Array | Easy | [1260_Shift_2D_Grid.py](1260_Shift_2D_Grid.py) |
+| 67 | 189. Rotate Array | Array | Medium | [189_Rotate_Array.py](189_Rotate_Array.py) |
