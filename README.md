@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **64** problems
+Total: **65** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -68,3 +68,4 @@ Total: **64** problems
 | 62 | 138. Copy List with Random Pointer | Linked List | Medium | [138_Copy_List_with_Random_Pointer.py](138_Copy_List_with_Random_Pointer.py) |
 | 63 | 2. Add Two Numbers | Linked List | Medium | [2_Add_Two_Numbers.py](2_Add_Two_Numbers.py) |
 | 64 | 287. Find the Duplicate Number | Linked List | Medium | [287_Find_the_Duplicate_Number.py](287_Find_the_Duplicate_Number.py) |
+| 65 | 146. LRU Cache | Linked List | Medium | [146_LRU_Cache.py](146_LRU_Cache.py) |
