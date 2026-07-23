@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **71** problems
+Total: **72** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -75,3 +75,4 @@ Total: **71** problems
 | 69 | 104. Maximum Depth of Binary Tree | Tree | Easy | [104_Maximum_Depth_of_Binary_Tree.py](104_Maximum_Depth_of_Binary_Tree.py) |
 | 70 | 543. Diameter of Binary Tree | Tree | Easy | [543_Diameter_of_Binary_Tree.py](543_Diameter_of_Binary_Tree.py) |
 | 71 | 110. Balanced Binary Tree | Tree | Easy | [110_Balanced_Binary_Tree.py](110_Balanced_Binary_Tree.py) |
+| 72 | 100. Same Tree | Tree | Easy | [100_Same_Tree.py](100_Same_Tree.py) |
