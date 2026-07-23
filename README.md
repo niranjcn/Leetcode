@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **69** problems
+Total: **70** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -73,3 +73,4 @@ Total: **69** problems
 | 67 | 189. Rotate Array | Array | Medium | [189_Rotate_Array.py](189_Rotate_Array.py) |
 | 68 | 226. Invert Binary Tree | Tree | Easy | [226_Invert_Binary_Tree.py](226_Invert_Binary_Tree.py) |
 | 69 | 104. Maximum Depth of Binary Tree | Tree | Easy | [104_Maximum_Depth_of_Binary_Tree.py](104_Maximum_Depth_of_Binary_Tree.py) |
+| 70 | 543. Diameter of Binary Tree | Tree | Easy | [543_Diameter_of_Binary_Tree.py](543_Diameter_of_Binary_Tree.py) |
