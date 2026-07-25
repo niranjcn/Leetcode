@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **72** problems
+Total: **73** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -76,3 +76,4 @@ Total: **72** problems
 | 70 | 543. Diameter of Binary Tree | Tree | Easy | [543_Diameter_of_Binary_Tree.py](543_Diameter_of_Binary_Tree.py) |
 | 71 | 110. Balanced Binary Tree | Tree | Easy | [110_Balanced_Binary_Tree.py](110_Balanced_Binary_Tree.py) |
 | 72 | 100. Same Tree | Tree | Easy | [100_Same_Tree.py](100_Same_Tree.py) |
+| 73 | 3536. Maximum Product of Two Digits | Math | Easy | [3536_Maximum_Product_of_Two_Digits.py](3536_Maximum_Product_of_Two_Digits.py) |
