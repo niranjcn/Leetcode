@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **78** problems
+Total: **79** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -82,3 +82,4 @@ Total: **78** problems
 | 76 | 572. Subtree of Another Tree | Tree | Easy | [572_Subtree_of_Another_Tree.py](572_Subtree_of_Another_Tree.py) |
 | 77 | 235. Lowest Common Ancestor of a Binary Search Tree | BST | Easy | [235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py](235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py) |
 | 78 | 628. Maximum Product of Three Numbers | Math | Easy | [628_Maximum_Product_of_Three_Numbers.py](628_Maximum_Product_of_Three_Numbers.py) |
+| 79 | 102. Binary Tree Level Order Traversal | BFS | Medium | [102_Binary_Tree_Level_Order_Traversal.py](102_Binary_Tree_Level_Order_Traversal.py) |
