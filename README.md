@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **75** problems
+Total: **76** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -79,3 +79,4 @@ Total: **75** problems
 | 73 | 3536. Maximum Product of Two Digits | Math | Easy | [3536_Maximum_Product_of_Two_Digits.py](3536_Maximum_Product_of_Two_Digits.py) |
 | 74 | 326. Power of Three | Math | Easy | [326_Power_of_Three.py](326_Power_of_Three.py) |
 | 75 | 342. Power of Four | Math | Easy | [342_Power_of_Four.py](342_Power_of_Four.py) |
+| 76 | 572. Subtree of Another Tree | Tree | Easy | [572_Subtree_of_Another_Tree.py](572_Subtree_of_Another_Tree.py) |
