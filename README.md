@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **76** problems
+Total: **77** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -80,3 +80,4 @@ Total: **76** problems
 | 74 | 326. Power of Three | Math | Easy | [326_Power_of_Three.py](326_Power_of_Three.py) |
 | 75 | 342. Power of Four | Math | Easy | [342_Power_of_Four.py](342_Power_of_Four.py) |
 | 76 | 572. Subtree of Another Tree | Tree | Easy | [572_Subtree_of_Another_Tree.py](572_Subtree_of_Another_Tree.py) |
+| 77 | 235. Lowest Common Ancestor of a Binary Search Tree | BST | Easy | [235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py](235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py) |
