@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **82** problems
+Total: **83** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -86,3 +86,4 @@ Total: **82** problems
 | 80 | 1464. Maximum Product of Two Elements in an Array | Math | Easy | [1464_Maximum_Product_of_Two_Elements_in_an_Array.py](1464_Maximum_Product_of_Two_Elements_in_an_Array.py) |
 | 81 | 199. Binary Tree Right Side View | BFS | Medium | [199_Binary_Tree_Right_Side_View.py](199_Binary_Tree_Right_Side_View.py) |
 | 82 | 1448. Count Good Nodes in Binary Tree | DFS | Medium | [1448_Count_Good_Nodes_in_Binary_Tree.py](1448_Count_Good_Nodes_in_Binary_Tree.py) |
+| 83 | 98. Validate Binary Search Tree | BST | Medium | [98_Validate_Binary_Search_Tree.py](98_Validate_Binary_Search_Tree.py) |
