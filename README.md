@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **84** problems
+Total: **85** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -88,3 +88,4 @@ Total: **84** problems
 | 82 | 1448. Count Good Nodes in Binary Tree | DFS | Medium | [1448_Count_Good_Nodes_in_Binary_Tree.py](1448_Count_Good_Nodes_in_Binary_Tree.py) |
 | 83 | 98. Validate Binary Search Tree | BST | Medium | [98_Validate_Binary_Search_Tree.py](98_Validate_Binary_Search_Tree.py) |
 | 84 | 200. Number of Islands | Graph | Medium | [200_Number_of_Islands.py](200_Number_of_Islands.py) |
+| 85 | 994. Rotting Oranges | Graph | Medium | [994_Rotting_Oranges.py](994_Rotting_Oranges.py) |
