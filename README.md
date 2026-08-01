@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **85** problems
+Total: **86** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -89,3 +89,4 @@ Total: **85** problems
 | 83 | 98. Validate Binary Search Tree | BST | Medium | [98_Validate_Binary_Search_Tree.py](98_Validate_Binary_Search_Tree.py) |
 | 84 | 200. Number of Islands | Graph | Medium | [200_Number_of_Islands.py](200_Number_of_Islands.py) |
 | 85 | 994. Rotting Oranges | Graph | Medium | [994_Rotting_Oranges.py](994_Rotting_Oranges.py) |
+| 86 | 207. Course Schedule | Topological Sort | Medium | [207_Course_Schedule.py](207_Course_Schedule.py) |
