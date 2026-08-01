@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **86** problems
+Total: **87** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -90,3 +90,4 @@ Total: **86** problems
 | 84 | 200. Number of Islands | Graph | Medium | [200_Number_of_Islands.py](200_Number_of_Islands.py) |
 | 85 | 994. Rotting Oranges | Graph | Medium | [994_Rotting_Oranges.py](994_Rotting_Oranges.py) |
 | 86 | 207. Course Schedule | Topological Sort | Medium | [207_Course_Schedule.py](207_Course_Schedule.py) |
+| 87 | 198. House Robber | Dynamic Programming | Medium | [198_House_Robber.py](198_House_Robber.py) |
