@@ -80,7 +80,7 @@ Total: **87** problems
 | 74 | 326. Power of Three | Math | Easy | [326_Power_of_Three.py](326_Power_of_Three.py) |
 | 75 | 342. Power of Four | Math | Easy | [342_Power_of_Four.py](342_Power_of_Four.py) |
 | 76 | 572. Subtree of Another Tree | Tree | Easy | [572_Subtree_of_Another_Tree.py](572_Subtree_of_Another_Tree.py) |
-| 77 | 235. Lowest Common Ancestor of a Binary Search Tree | BST | Easy | [235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py](235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py) |
+| 77 | 235. Lowest Common Ancestor of a Binary Search Tree | BST | Medium | [235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py](235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py) |
 | 78 | 628. Maximum Product of Three Numbers | Math | Easy | [628_Maximum_Product_of_Three_Numbers.py](628_Maximum_Product_of_Three_Numbers.py) |
 | 79 | 102. Binary Tree Level Order Traversal | BFS | Medium | [102_Binary_Tree_Level_Order_Traversal.py](102_Binary_Tree_Level_Order_Traversal.py) |
 | 80 | 1464. Maximum Product of Two Elements in an Array | Math | Easy | [1464_Maximum_Product_of_Two_Elements_in_an_Array.py](1464_Maximum_Product_of_Two_Elements_in_an_Array.py) |
