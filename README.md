@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **90** problems
+Total: **91** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -94,3 +94,4 @@ Total: **90** problems
 | 88 | 322. Coin Change | Dynamic Programming | Medium | [322_Coin_Change.py](322_Coin_Change.py) |
 | 89 | 118. Pascal's Triangle | Array | Easy | [118_Pascals_Triangle.py](118_Pascals_Triangle.py) |
 | 90 | 1929. Concatenation of Array | Array | Easy | [1929_Concatenation_of_Array.py](1929_Concatenation_of_Array.py) |
+| 91 | 1470. Shuffle the Array | Array | Easy | [1470_Shuffle_the_Array.py](1470_Shuffle_the_Array.py) |
