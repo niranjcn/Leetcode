@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **92** problems
+Total: **93** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -96,3 +96,4 @@ Total: **92** problems
 | 90 | 1929. Concatenation of Array | Array | Easy | [1929_Concatenation_of_Array.py](1929_Concatenation_of_Array.py) |
 | 91 | 1470. Shuffle the Array | Array | Easy | [1470_Shuffle_the_Array.py](1470_Shuffle_the_Array.py) |
 | 92 | 485. Max Consecutive Ones | Array | Medium | [485_Max_Consecutive_Ones.py](485_Max_Consecutive_Ones.py) |
+| 93 | 230. Kth Smallest Element in a BST | BST | Medium | [230_Kth_Smallest_Element_in_a_BST.py](230_Kth_Smallest_Element_in_a_BST.py) |
