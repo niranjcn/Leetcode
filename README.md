@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **94** problems
+Total: **95** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -98,3 +98,4 @@ Total: **94** problems
 | 92 | 485. Max Consecutive Ones | Array | Medium | [485_Max_Consecutive_Ones.py](485_Max_Consecutive_Ones.py) |
 | 93 | 230. Kth Smallest Element in a BST | BST | Medium | [230_Kth_Smallest_Element_in_a_BST.py](230_Kth_Smallest_Element_in_a_BST.py) |
 | 94 | 105. Construct Binary Tree from Preorder and Inorder Traversal | Tree | Medium | [105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py](105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py) |
+| 95 | 88. Merge Sorted Array | Array | Easy | [88_Merge_Sorted_Array.py](88_Merge_Sorted_Array.py) |
