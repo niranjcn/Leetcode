@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **89** problems
+Total: **90** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -93,3 +93,4 @@ Total: **89** problems
 | 87 | 198. House Robber | Dynamic Programming | Medium | [198_House_Robber.py](198_House_Robber.py) |
 | 88 | 322. Coin Change | Dynamic Programming | Medium | [322_Coin_Change.py](322_Coin_Change.py) |
 | 89 | 118. Pascal's Triangle | Array | Easy | [118_Pascals_Triangle.py](118_Pascals_Triangle.py) |
+| 90 | 1929. Concatenation of Array | Array | Easy | [1929_Concatenation_of_Array.py](1929_Concatenation_of_Array.py) |
