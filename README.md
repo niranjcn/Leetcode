@@ -101,4 +101,4 @@ Total: **98** problems
 | 95 | 88. Merge Sorted Array | Array | Easy | [88_Merge_Sorted_Array.py](88_Merge_Sorted_Array.py) |
 | 96 | 27. Remove Element | Array | Easy | [27_Remove_Element.py](27_Remove_Element.py) |
 | 97 | 124. Binary Tree Maximum Path Sum | Tree | Hard | [124_Binary_Tree_Maximum_Path_Sum.py](124_Binary_Tree_Maximum_Path_Sum.py) |
-| 98 | 645. Set Mismatch | Array | Medium | [645_Set_Mismatch.py](645_Set_Mismatch.py) |
+| 98 | 645. Set Mismatch | Array | Easy | [645_Set_Mismatch.py](645_Set_Mismatch.py) |
