@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **96** problems
+Total: **97** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -100,3 +100,4 @@ Total: **96** problems
 | 94 | 105. Construct Binary Tree from Preorder and Inorder Traversal | Tree | Medium | [105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py](105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py) |
 | 95 | 88. Merge Sorted Array | Array | Easy | [88_Merge_Sorted_Array.py](88_Merge_Sorted_Array.py) |
 | 96 | 27. Remove Element | Array | Easy | [27_Remove_Element.py](27_Remove_Element.py) |
+| 97 | 124. Binary Tree Maximum Path Sum | Tree | Hard | [124_Binary_Tree_Maximum_Path_Sum.py](124_Binary_Tree_Maximum_Path_Sum.py) |
