@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **91** problems
+Total: **92** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -95,3 +95,4 @@ Total: **91** problems
 | 89 | 118. Pascal's Triangle | Array | Easy | [118_Pascals_Triangle.py](118_Pascals_Triangle.py) |
 | 90 | 1929. Concatenation of Array | Array | Easy | [1929_Concatenation_of_Array.py](1929_Concatenation_of_Array.py) |
 | 91 | 1470. Shuffle the Array | Array | Easy | [1470_Shuffle_the_Array.py](1470_Shuffle_the_Array.py) |
+| 92 | 485. Max Consecutive Ones | Array | Medium | [485_Max_Consecutive_Ones.py](485_Max_Consecutive_Ones.py) |
