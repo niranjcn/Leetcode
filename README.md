@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **93** problems
+Total: **94** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -97,3 +97,4 @@ Total: **93** problems
 | 91 | 1470. Shuffle the Array | Array | Easy | [1470_Shuffle_the_Array.py](1470_Shuffle_the_Array.py) |
 | 92 | 485. Max Consecutive Ones | Array | Medium | [485_Max_Consecutive_Ones.py](485_Max_Consecutive_Ones.py) |
 | 93 | 230. Kth Smallest Element in a BST | BST | Medium | [230_Kth_Smallest_Element_in_a_BST.py](230_Kth_Smallest_Element_in_a_BST.py) |
+| 94 | 105. Construct Binary Tree from Preorder and Inorder Traversal | Tree | Medium | [105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py](105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py) |
