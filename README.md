@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **95** problems
+Total: **96** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -99,3 +99,4 @@ Total: **95** problems
 | 93 | 230. Kth Smallest Element in a BST | BST | Medium | [230_Kth_Smallest_Element_in_a_BST.py](230_Kth_Smallest_Element_in_a_BST.py) |
 | 94 | 105. Construct Binary Tree from Preorder and Inorder Traversal | Tree | Medium | [105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py](105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py) |
 | 95 | 88. Merge Sorted Array | Array | Easy | [88_Merge_Sorted_Array.py](88_Merge_Sorted_Array.py) |
+| 96 | 27. Remove Element | Array | Easy | [27_Remove_Element.py](27_Remove_Element.py) |
