@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **99** problems
+Total: **100** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -103,3 +103,4 @@ Total: **99** problems
 | 97 | 124. Binary Tree Maximum Path Sum | Tree | Hard | [124_Binary_Tree_Maximum_Path_Sum.py](124_Binary_Tree_Maximum_Path_Sum.py) |
 | 98 | 645. Set Mismatch | Array | Easy | [645_Set_Mismatch.py](645_Set_Mismatch.py) |
 | 99 | 236. Lowest Common Ancestor of a Binary Tree | Tree | Medium | [236_Lowest_Common_Ancestor_of_a_Binary_Tree.py](236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) |
+| 100 | 112. Path Sum | Tree | Easy | [112_Path_Sum.py](112_Path_Sum.py) |
