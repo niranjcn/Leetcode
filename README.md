@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **101** problems
+Total: **102** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -105,3 +105,4 @@ Total: **101** problems
 | 99 | 236. Lowest Common Ancestor of a Binary Tree | Tree | Medium | [236_Lowest_Common_Ancestor_of_a_Binary_Tree.py](236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) |
 | 100 | 112. Path Sum | Tree | Easy | [112_Path_Sum.py](112_Path_Sum.py) |
 | 101 | 113. Path Sum II | Tree | Medium | [113_Path_Sum_II.py](113_Path_Sum_II.py) |
+| 102 | 3731. Find Missing Elements | Array | Easy | [3731_Find_Missing_Elements.py](3731_Find_Missing_Elements.py) |
