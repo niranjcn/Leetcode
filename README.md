@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **98** problems
+Total: **99** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -102,3 +102,4 @@ Total: **98** problems
 | 96 | 27. Remove Element | Array | Easy | [27_Remove_Element.py](27_Remove_Element.py) |
 | 97 | 124. Binary Tree Maximum Path Sum | Tree | Hard | [124_Binary_Tree_Maximum_Path_Sum.py](124_Binary_Tree_Maximum_Path_Sum.py) |
 | 98 | 645. Set Mismatch | Array | Easy | [645_Set_Mismatch.py](645_Set_Mismatch.py) |
+| 99 | 236. Lowest Common Ancestor of a Binary Tree | Tree | Medium | [236_Lowest_Common_Ancestor_of_a_Binary_Tree.py](236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) |
