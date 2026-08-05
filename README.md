@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **105** problems
+Total: **106** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -109,3 +109,4 @@ Total: **105** problems
 | 103 | 26. Remove Duplicates from Sorted Array | Two Pointers | Easy | [26_Remove_Duplicates_from_Sorted_Array.py](26_Remove_Duplicates_from_Sorted_Array.py) |
 | 104 | 70. Climbing Stairs | Dynamic Programming | Easy | [70_Climbing_Stairs.py](70_Climbing_Stairs.py) |
 | 105 | 746. Min Cost Climbing Stairs | Dynamic Programming | Easy | [746_Min_Cost_Climbing_Stairs.py](746_Min_Cost_Climbing_Stairs.py) |
+| 106 | 213. House Robber II | Dynamic Programming | Medium | [213_House_Robber_II.py](213_House_Robber_II.py) |
