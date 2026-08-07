@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **107** problems
+Total: **108** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -111,3 +111,4 @@ Total: **107** problems
 | 105 | 746. Min Cost Climbing Stairs | Dynamic Programming | Easy | [746_Min_Cost_Climbing_Stairs.py](746_Min_Cost_Climbing_Stairs.py) |
 | 106 | 213. House Robber II | Dynamic Programming | Medium | [213_House_Robber_II.py](213_House_Robber_II.py) |
 | 107 | 62. Unique Paths | Dynamic Programming | Medium | [62_Unique_Paths.py](62_Unique_Paths.py) |
+| 108 | 64. Minimum Path Sum | Dynamic Programming | Medium | [64_Minimum_Path_Sum.py](64_Minimum_Path_Sum.py) |
