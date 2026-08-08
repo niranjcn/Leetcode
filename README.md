@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **109** problems
+Total: **110** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -113,3 +113,4 @@ Total: **109** problems
 | 107 | 62. Unique Paths | Dynamic Programming | Medium | [62_Unique_Paths.py](62_Unique_Paths.py) |
 | 108 | 64. Minimum Path Sum | Dynamic Programming | Medium | [64_Minimum_Path_Sum.py](64_Minimum_Path_Sum.py) |
 | 109 | 5. Longest Palindromic Substring | Dynamic Programming | Medium | [5_Longest_Palindromic_Substring.py](5_Longest_Palindromic_Substring.py) |
+| 110 | 647. Palindromic Substrings | Dynamic Programming | Medium | [647_Palindromic_Substrings.py](647_Palindromic_Substrings.py) |
