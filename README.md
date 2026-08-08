@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **108** problems
+Total: **109** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -112,3 +112,4 @@ Total: **108** problems
 | 106 | 213. House Robber II | Dynamic Programming | Medium | [213_House_Robber_II.py](213_House_Robber_II.py) |
 | 107 | 62. Unique Paths | Dynamic Programming | Medium | [62_Unique_Paths.py](62_Unique_Paths.py) |
 | 108 | 64. Minimum Path Sum | Dynamic Programming | Medium | [64_Minimum_Path_Sum.py](64_Minimum_Path_Sum.py) |
+| 109 | 5. Longest Palindromic Substring | Dynamic Programming | Medium | [5_Longest_Palindromic_Substring.py](5_Longest_Palindromic_Substring.py) |
