@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **112** problems
+Total: **113** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -116,3 +116,4 @@ Total: **112** problems
 | 110 | 647. Palindromic Substrings | Dynamic Programming | Medium | [647_Palindromic_Substrings.py](647_Palindromic_Substrings.py) |
 | 111 | 383. Ransom Note | HashMap | Easy | [383_Ransom_Note.py](383_Ransom_Note.py) |
 | 112 | 91. Decode Ways | Dynamic Programming | Medium | [91_Decode_Ways.py](91_Decode_Ways.py) |
+| 113 | 152. Maximum Product Subarray | Dynamic Programming | Medium | [152_Maximum_Product_Subarray.py](152_Maximum_Product_Subarray.py) |
