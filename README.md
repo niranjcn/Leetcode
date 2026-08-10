@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **111** problems
+Total: **112** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -115,3 +115,4 @@ Total: **111** problems
 | 109 | 5. Longest Palindromic Substring | Dynamic Programming | Medium | [5_Longest_Palindromic_Substring.py](5_Longest_Palindromic_Substring.py) |
 | 110 | 647. Palindromic Substrings | Dynamic Programming | Medium | [647_Palindromic_Substrings.py](647_Palindromic_Substrings.py) |
 | 111 | 383. Ransom Note | HashMap | Easy | [383_Ransom_Note.py](383_Ransom_Note.py) |
+| 112 | 91. Decode Ways | Dynamic Programming | Medium | [91_Decode_Ways.py](91_Decode_Ways.py) |
