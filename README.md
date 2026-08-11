@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **113** problems
+Total: **114** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -117,3 +117,4 @@ Total: **113** problems
 | 111 | 383. Ransom Note | HashMap | Easy | [383_Ransom_Note.py](383_Ransom_Note.py) |
 | 112 | 91. Decode Ways | Dynamic Programming | Medium | [91_Decode_Ways.py](91_Decode_Ways.py) |
 | 113 | 152. Maximum Product Subarray | Dynamic Programming | Medium | [152_Maximum_Product_Subarray.py](152_Maximum_Product_Subarray.py) |
+| 114 | 2996. Smallest Missing Integer Greater Than Sequential Prefix Sum | Prefix Sum | Easy | [2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.py](2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.py) |
