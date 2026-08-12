@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **114** problems
+Total: **115** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -118,3 +118,4 @@ Total: **114** problems
 | 112 | 91. Decode Ways | Dynamic Programming | Medium | [91_Decode_Ways.py](91_Decode_Ways.py) |
 | 113 | 152. Maximum Product Subarray | Dynamic Programming | Medium | [152_Maximum_Product_Subarray.py](152_Maximum_Product_Subarray.py) |
 | 114 | 2996. Smallest Missing Integer Greater Than Sequential Prefix Sum | Prefix Sum | Easy | [2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.py](2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.py) |
+| 115 | 139. Word Break | Dynamic Programming | Medium | [139_Word_Break.py](139_Word_Break.py) |
