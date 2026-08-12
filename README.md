@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **116** problems
+Total: **117** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -120,3 +120,4 @@ Total: **116** problems
 | 114 | 2996. Smallest Missing Integer Greater Than Sequential Prefix Sum | Prefix Sum | Easy | [2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.py](2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.py) |
 | 115 | 139. Word Break | Dynamic Programming | Medium | [139_Word_Break.py](139_Word_Break.py) |
 | 116 | 300. Longest Increasing Subsequence | Dynamic Programming | Medium | [300_Longest_Increasing_Subsequence.py](300_Longest_Increasing_Subsequence.py) |
+| 117 | 416. Partition Equal Subset Sum | Dynamic Programming | Medium | [416_Partition_Equal_Subset_Sum.py](416_Partition_Equal_Subset_Sum.py) |
