@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **118** problems
+Total: **119** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -122,3 +122,4 @@ Total: **118** problems
 | 116 | 300. Longest Increasing Subsequence | Dynamic Programming | Medium | [300_Longest_Increasing_Subsequence.py](300_Longest_Increasing_Subsequence.py) |
 | 117 | 416. Partition Equal Subset Sum | Dynamic Programming | Medium | [416_Partition_Equal_Subset_Sum.py](416_Partition_Equal_Subset_Sum.py) |
 | 118 | 1143. Longest Common Subsequence | Dynamic Programming | Medium | [1143_Longest_Common_Subsequence.py](1143_Longest_Common_Subsequence.py) |
+| 119 | 72. Edit Distance | Dynamic Programming | Medium | [72_Edit_Distance.py](72_Edit_Distance.py) |
