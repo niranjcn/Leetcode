@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **120** problems
+Total: **121** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -124,3 +124,4 @@ Total: **120** problems
 | 118 | 1143. Longest Common Subsequence | Dynamic Programming | Medium | [1143_Longest_Common_Subsequence.py](1143_Longest_Common_Subsequence.py) |
 | 119 | 72. Edit Distance | Dynamic Programming | Medium | [72_Edit_Distance.py](72_Edit_Distance.py) |
 | 120 |  Code Testcase Testcase Test Result 10. Regular Expression Matching | Dynamic Programming | Hard | [Code_Testcase_Testcase_Test_Result_10_Regular_Expression_Matching.py](Code_Testcase_Testcase_Test_Result_10_Regular_Expression_Matching.py) |
+| 121 | 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | Sliding Window | Medium | [1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py](1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py) |
