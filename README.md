@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **122** problems
+Total: **123** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -126,3 +126,4 @@ Total: **122** problems
 | 120 |  Code Testcase Testcase Test Result 10. Regular Expression Matching | Dynamic Programming | Hard | [Code_Testcase_Testcase_Test_Result_10_Regular_Expression_Matching.py](Code_Testcase_Testcase_Test_Result_10_Regular_Expression_Matching.py) |
 | 121 | 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | Sliding Window | Medium | [1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py](1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py) |
 | 122 | 3090. Maximum Length Substring With Two Occurrences | Sliding Window | Easy | [3090_Maximum_Length_Substring_With_Two_Occurrences.py](3090_Maximum_Length_Substring_With_Two_Occurrences.py) |
+| 123 | 268. Missing Number | Bit Manipulation | Easy | [268_Missing_Number.py](268_Missing_Number.py) |
