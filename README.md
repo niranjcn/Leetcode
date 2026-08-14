@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **119** problems
+Total: **120** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -123,3 +123,4 @@ Total: **119** problems
 | 117 | 416. Partition Equal Subset Sum | Dynamic Programming | Medium | [416_Partition_Equal_Subset_Sum.py](416_Partition_Equal_Subset_Sum.py) |
 | 118 | 1143. Longest Common Subsequence | Dynamic Programming | Medium | [1143_Longest_Common_Subsequence.py](1143_Longest_Common_Subsequence.py) |
 | 119 | 72. Edit Distance | Dynamic Programming | Medium | [72_Edit_Distance.py](72_Edit_Distance.py) |
+| 120 |  Code Testcase Testcase Test Result 10. Regular Expression Matching | Dynamic Programming | Hard | [Code_Testcase_Testcase_Test_Result_10_Regular_Expression_Matching.py](Code_Testcase_Testcase_Test_Result_10_Regular_Expression_Matching.py) |
