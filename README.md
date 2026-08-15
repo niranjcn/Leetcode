@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **125** problems
+Total: **126** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -129,3 +129,4 @@ Total: **125** problems
 | 123 | 268. Missing Number | Bit Manipulation | Easy | [268_Missing_Number.py](268_Missing_Number.py) |
 | 124 | 2294. Partition Array Such That Maximum Difference Is K | Greedy | Medium | [2294_Partition_Array_Such_That_Maximum_Difference_Is_K.py](2294_Partition_Array_Such_That_Maximum_Difference_Is_K.py) |
 | 125 | 487. Max Consecutive Ones II | Sliding Window | Medium | [487_Max_Consecutive_Ones_II.py](487_Max_Consecutive_Ones_II.py) |
+| 126 | 127. Word Ladder | Graph | Hard | [127_Word_Ladder.py](127_Word_Ladder.py) |
