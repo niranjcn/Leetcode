@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **123** problems
+Total: **124** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -127,3 +127,4 @@ Total: **123** problems
 | 121 | 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | Sliding Window | Medium | [1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py](1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py) |
 | 122 | 3090. Maximum Length Substring With Two Occurrences | Sliding Window | Easy | [3090_Maximum_Length_Substring_With_Two_Occurrences.py](3090_Maximum_Length_Substring_With_Two_Occurrences.py) |
 | 123 | 268. Missing Number | Bit Manipulation | Easy | [268_Missing_Number.py](268_Missing_Number.py) |
+| 124 | 2294. Partition Array Such That Maximum Difference Is K | Greedy | Medium | [2294_Partition_Array_Such_That_Maximum_Difference_Is_K.py](2294_Partition_Array_Such_That_Maximum_Difference_Is_K.py) |
