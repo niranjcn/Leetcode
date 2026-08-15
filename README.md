@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **124** problems
+Total: **125** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -128,3 +128,4 @@ Total: **124** problems
 | 122 | 3090. Maximum Length Substring With Two Occurrences | Sliding Window | Easy | [3090_Maximum_Length_Substring_With_Two_Occurrences.py](3090_Maximum_Length_Substring_With_Two_Occurrences.py) |
 | 123 | 268. Missing Number | Bit Manipulation | Easy | [268_Missing_Number.py](268_Missing_Number.py) |
 | 124 | 2294. Partition Array Such That Maximum Difference Is K | Greedy | Medium | [2294_Partition_Array_Such_That_Maximum_Difference_Is_K.py](2294_Partition_Array_Such_That_Maximum_Difference_Is_K.py) |
+| 125 | 487. Max Consecutive Ones II | Sliding Window | Medium | [487_Max_Consecutive_Ones_II.py](487_Max_Consecutive_Ones_II.py) |
