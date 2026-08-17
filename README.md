@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **127** problems
+Total: **128** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -131,3 +131,4 @@ Total: **127** problems
 | 125 | 487. Max Consecutive Ones II | Sliding Window | Medium | [487_Max_Consecutive_Ones_II.py](487_Max_Consecutive_Ones_II.py) |
 | 126 | 127. Word Ladder | Graph | Hard | [127_Word_Ladder.py](127_Word_Ladder.py) |
 | 127 | 133. Clone Graph | Graph | Medium | [133_Clone_Graph.py](133_Clone_Graph.py) |
+| 128 | 695. Max Area of Island | Graph | Medium | [695_Max_Area_of_Island.py](695_Max_Area_of_Island.py) |
