@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **132** problems
+Total: **133** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -136,3 +136,4 @@ Total: **132** problems
 | 130 | 130. Surrounded Regions | Graph | Medium | [130_Surrounded_Regions.py](130_Surrounded_Regions.py) |
 | 131 | 210. Course Schedule II | Graph | Medium | [210_Course_Schedule_II.py](210_Course_Schedule_II.py) |
 | 132 | 2574. Left and Right Sum Differences | Prefix Sum | Easy | [2574_Left_and_Right_Sum_Differences.py](2574_Left_and_Right_Sum_Differences.py) |
+| 133 | 1658. Minimum Operations to Reduce X to Zero | Sliding Window | Medium | [1658_Minimum_Operations_to_Reduce_X_to_Zero.py](1658_Minimum_Operations_to_Reduce_X_to_Zero.py) |
