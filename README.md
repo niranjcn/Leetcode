@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **131** problems
+Total: **132** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -135,3 +135,4 @@ Total: **131** problems
 | 129 | 417. Pacific Atlantic Water Flow | Graph | Medium | [417_Pacific_Atlantic_Water_Flow.py](417_Pacific_Atlantic_Water_Flow.py) |
 | 130 | 130. Surrounded Regions | Graph | Medium | [130_Surrounded_Regions.py](130_Surrounded_Regions.py) |
 | 131 | 210. Course Schedule II | Graph | Medium | [210_Course_Schedule_II.py](210_Course_Schedule_II.py) |
+| 132 | 2574. Left and Right Sum Differences | Prefix Sum | Easy | [2574_Left_and_Right_Sum_Differences.py](2574_Left_and_Right_Sum_Differences.py) |
