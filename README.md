@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **135** problems
+Total: **136** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -139,3 +139,4 @@ Total: **135** problems
 | 133 | 1658. Minimum Operations to Reduce X to Zero | Sliding Window | Medium | [1658_Minimum_Operations_to_Reduce_X_to_Zero.py](1658_Minimum_Operations_to_Reduce_X_to_Zero.py) |
 | 134 | 684. Redundant Connection | Union Find | Medium | [684_Redundant_Connection.py](684_Redundant_Connection.py) |
 | 135 | 323.Number of Connected Components in an Undirected Graph | Union Find | Medium | [323Number_of_Connected_Components_in_an_Undirected_Graph.py](323Number_of_Connected_Components_in_an_Undirected_Graph.py) |
+| 136 | 261.Graph Valid Tree | Union Find | Medium | [261Graph_Valid_Tree.py](261Graph_Valid_Tree.py) |
