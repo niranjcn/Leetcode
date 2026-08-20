@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **134** problems
+Total: **135** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -138,3 +138,4 @@ Total: **134** problems
 | 132 | 2574. Left and Right Sum Differences | Prefix Sum | Easy | [2574_Left_and_Right_Sum_Differences.py](2574_Left_and_Right_Sum_Differences.py) |
 | 133 | 1658. Minimum Operations to Reduce X to Zero | Sliding Window | Medium | [1658_Minimum_Operations_to_Reduce_X_to_Zero.py](1658_Minimum_Operations_to_Reduce_X_to_Zero.py) |
 | 134 | 684. Redundant Connection | Union Find | Medium | [684_Redundant_Connection.py](684_Redundant_Connection.py) |
+| 135 | 323.Number of Connected Components in an Undirected Graph | Union Find | Medium | [323Number_of_Connected_Components_in_an_Undirected_Graph.py](323Number_of_Connected_Components_in_an_Undirected_Graph.py) |
