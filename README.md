@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **133** problems
+Total: **134** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -137,3 +137,4 @@ Total: **133** problems
 | 131 | 210. Course Schedule II | Graph | Medium | [210_Course_Schedule_II.py](210_Course_Schedule_II.py) |
 | 132 | 2574. Left and Right Sum Differences | Prefix Sum | Easy | [2574_Left_and_Right_Sum_Differences.py](2574_Left_and_Right_Sum_Differences.py) |
 | 133 | 1658. Minimum Operations to Reduce X to Zero | Sliding Window | Medium | [1658_Minimum_Operations_to_Reduce_X_to_Zero.py](1658_Minimum_Operations_to_Reduce_X_to_Zero.py) |
+| 134 | 684. Redundant Connection | Union Find | Medium | [684_Redundant_Connection.py](684_Redundant_Connection.py) |
