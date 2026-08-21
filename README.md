@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **137** problems
+Total: **138** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -141,3 +141,4 @@ Total: **137** problems
 | 135 | 323.Number of Connected Components in an Undirected Graph | Union Find | Medium | [323Number_of_Connected_Components_in_an_Undirected_Graph.py](323Number_of_Connected_Components_in_an_Undirected_Graph.py) |
 | 136 | 261.Graph Valid Tree | Union Find | Medium | [261Graph_Valid_Tree.py](261Graph_Valid_Tree.py) |
 | 137 | 743. Network Delay Time | Graph | Medium | [743_Network_Delay_Time.py](743_Network_Delay_Time.py) |
+| 138 | 1971. Find if Path Exists in Graph | Union Find | Easy | [1971_Find_if_Path_Exists_in_Graph.py](1971_Find_if_Path_Exists_in_Graph.py) |
