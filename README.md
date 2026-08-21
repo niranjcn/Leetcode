@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **136** problems
+Total: **137** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -140,3 +140,4 @@ Total: **136** problems
 | 134 | 684. Redundant Connection | Union Find | Medium | [684_Redundant_Connection.py](684_Redundant_Connection.py) |
 | 135 | 323.Number of Connected Components in an Undirected Graph | Union Find | Medium | [323Number_of_Connected_Components_in_an_Undirected_Graph.py](323Number_of_Connected_Components_in_an_Undirected_Graph.py) |
 | 136 | 261.Graph Valid Tree | Union Find | Medium | [261Graph_Valid_Tree.py](261Graph_Valid_Tree.py) |
+| 137 | 743. Network Delay Time | Graph | Medium | [743_Network_Delay_Time.py](743_Network_Delay_Time.py) |
