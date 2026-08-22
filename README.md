@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **141** problems
+Total: **142** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -145,3 +145,4 @@ Total: **141** problems
 | 139 | 1051. Height Checker | Array | Easy | [1051_Height_Checker.py](1051_Height_Checker.py) |
 | 140 | 442. Find All Duplicates in an Array | Array | Medium | [442_Find_All_Duplicates_in_an_Array.py](442_Find_All_Duplicates_in_an_Array.py) |
 | 141 | 3622. Check Divisibility by Digit Sum and Product | Math | Easy | [3622_Check_Divisibility_by_Digit_Sum_and_Product.py](3622_Check_Divisibility_by_Digit_Sum_and_Product.py) |
+| 142 | 724. Find Pivot Index | Prefix Sum | Easy | [724_Find_Pivot_Index.py](724_Find_Pivot_Index.py) |
