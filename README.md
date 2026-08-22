@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **138** problems
+Total: **139** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -142,3 +142,4 @@ Total: **138** problems
 | 136 | 261.Graph Valid Tree | Union Find | Medium | [261Graph_Valid_Tree.py](261Graph_Valid_Tree.py) |
 | 137 | 743. Network Delay Time | Graph | Medium | [743_Network_Delay_Time.py](743_Network_Delay_Time.py) |
 | 138 | 1971. Find if Path Exists in Graph | Union Find | Easy | [1971_Find_if_Path_Exists_in_Graph.py](1971_Find_if_Path_Exists_in_Graph.py) |
+| 139 | 1051. Height Checker | Array | Easy | [1051_Height_Checker.py](1051_Height_Checker.py) |
