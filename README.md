@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **139** problems
+Total: **140** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -143,3 +143,4 @@ Total: **139** problems
 | 137 | 743. Network Delay Time | Graph | Medium | [743_Network_Delay_Time.py](743_Network_Delay_Time.py) |
 | 138 | 1971. Find if Path Exists in Graph | Union Find | Easy | [1971_Find_if_Path_Exists_in_Graph.py](1971_Find_if_Path_Exists_in_Graph.py) |
 | 139 | 1051. Height Checker | Array | Easy | [1051_Height_Checker.py](1051_Height_Checker.py) |
+| 140 | 442. Find All Duplicates in an Array | Array | Medium | [442_Find_All_Duplicates_in_an_Array.py](442_Find_All_Duplicates_in_an_Array.py) |
