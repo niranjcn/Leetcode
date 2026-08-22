@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **140** problems
+Total: **141** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -144,3 +144,4 @@ Total: **140** problems
 | 138 | 1971. Find if Path Exists in Graph | Union Find | Easy | [1971_Find_if_Path_Exists_in_Graph.py](1971_Find_if_Path_Exists_in_Graph.py) |
 | 139 | 1051. Height Checker | Array | Easy | [1051_Height_Checker.py](1051_Height_Checker.py) |
 | 140 | 442. Find All Duplicates in an Array | Array | Medium | [442_Find_All_Duplicates_in_an_Array.py](442_Find_All_Duplicates_in_an_Array.py) |
+| 141 | 3622. Check Divisibility by Digit Sum and Product | Math | Easy | [3622_Check_Divisibility_by_Digit_Sum_and_Product.py](3622_Check_Divisibility_by_Digit_Sum_and_Product.py) |
