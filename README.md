@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **142** problems
+Total: **143** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -146,3 +146,4 @@ Total: **142** problems
 | 140 | 442. Find All Duplicates in an Array | Array | Medium | [442_Find_All_Duplicates_in_an_Array.py](442_Find_All_Duplicates_in_an_Array.py) |
 | 141 | 3622. Check Divisibility by Digit Sum and Product | Math | Easy | [3622_Check_Divisibility_by_Digit_Sum_and_Product.py](3622_Check_Divisibility_by_Digit_Sum_and_Product.py) |
 | 142 | 724. Find Pivot Index | Prefix Sum | Easy | [724_Find_Pivot_Index.py](724_Find_Pivot_Index.py) |
+| 143 | 703. Kth Largest Element in a Stream | Heap | Easy | [703_Kth_Largest_Element_in_a_Stream.py](703_Kth_Largest_Element_in_a_Stream.py) |
