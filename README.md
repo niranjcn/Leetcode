@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **144** problems
+Total: **145** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -148,3 +148,4 @@ Total: **144** problems
 | 142 | 724. Find Pivot Index | Prefix Sum | Easy | [724_Find_Pivot_Index.py](724_Find_Pivot_Index.py) |
 | 143 | 703. Kth Largest Element in a Stream | Heap | Easy | [703_Kth_Largest_Element_in_a_Stream.py](703_Kth_Largest_Element_in_a_Stream.py) |
 | 144 | 1046. Last Stone Weight | Heap | Easy | [1046_Last_Stone_Weight.py](1046_Last_Stone_Weight.py) |
+| 145 | 973. K Closest Points to Origin | Heap | Medium | [973_K_Closest_Points_to_Origin.py](973_K_Closest_Points_to_Origin.py) |
