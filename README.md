@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **146** problems
+Total: **147** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -150,3 +150,4 @@ Total: **146** problems
 | 144 | 1046. Last Stone Weight | Heap | Easy | [1046_Last_Stone_Weight.py](1046_Last_Stone_Weight.py) |
 | 145 | 973. K Closest Points to Origin | Heap | Medium | [973_K_Closest_Points_to_Origin.py](973_K_Closest_Points_to_Origin.py) |
 | 146 | 215. Kth Largest Element in an Array | Heap | Medium | [215_Kth_Largest_Element_in_an_Array.py](215_Kth_Largest_Element_in_an_Array.py) |
+| 147 | 621. Task Scheduler | Heap | Medium | [621_Task_Scheduler.py](621_Task_Scheduler.py) |
