@@ -10,7 +10,7 @@ Total: **147** problems
 | 4 | 49. Group Anagrams | HashMap | Medium | [49_Group_Anagrams.py](49_Group_Anagrams.py) |
 | 5 | 347. Top K Frequent Elements | Heap | Medium | [347_Top_K_Frequent_Elements.py](347_Top_K_Frequent_Elements.py) |
 | 6 | 271. Encode and Decode Strings | String | Medium | [271_Encode_and_Decode_Strings.py](271_Encode_and_Decode_Strings.py) |
-| 7 | 238. Product of Array Except Self | Array | Medium | [238_Product_of_Array_Except_Self.py](238_Product_of_Array_Except_Self.py) |
+| 7 | 238. Product of Array Except Self | Array | Medium | - |
 | 8 | 36. Valid Sudoku | Array | Medium | [36_Valid_Sudoku.py](36_Valid_Sudoku.py) |
 | 9 | 128. Longest Consecutive Sequence | Array | Medium | [128_Longest_Consecutive_Sequence.py](128_Longest_Consecutive_Sequence.py) |
 | 10 | 560. Subarray Sum Equals K | Prefix Sum | Medium | [560_Subarray_Sum_Equals_K.py](560_Subarray_Sum_Equals_K.py) |
