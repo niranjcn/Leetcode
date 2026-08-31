@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **147** problems
+Total: **148** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -151,3 +151,4 @@ Total: **147** problems
 | 145 | 973. K Closest Points to Origin | Heap | Medium | [973_K_Closest_Points_to_Origin.py](973_K_Closest_Points_to_Origin.py) |
 | 146 | 215. Kth Largest Element in an Array | Heap | Medium | [215_Kth_Largest_Element_in_an_Array.py](215_Kth_Largest_Element_in_an_Array.py) |
 | 147 | 621. Task Scheduler | Heap | Medium | [621_Task_Scheduler.py](621_Task_Scheduler.py) |
+| 148 | 94. Binary Tree Inorder Traversal | Tree | Easy | [94_Binary_Tree_Inorder_Traversal.py](94_Binary_Tree_Inorder_Traversal.py) |
