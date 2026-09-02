@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **150** problems
+Total: **151** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -154,3 +154,4 @@ Total: **150** problems
 | 148 | 94. Binary Tree Inorder Traversal | Tree | Easy | [94_Binary_Tree_Inorder_Traversal.py](94_Binary_Tree_Inorder_Traversal.py) |
 | 149 | 96. Unique Binary Search Trees | Dynamic Programming | Medium | [96_Unique_Binary_Search_Trees.py](96_Unique_Binary_Search_Trees.py) |
 | 150 | 3875. Construct Uniform Parity Array I | Math | Medium | [3875_Construct_Uniform_Parity_Array_I.py](3875_Construct_Uniform_Parity_Array_I.py) |
+| 151 | 55. Jump Game | Greedy | Medium | [55_Jump_Game.py](55_Jump_Game.py) |
