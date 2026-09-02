@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **149** problems
+Total: **150** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -153,3 +153,4 @@ Total: **149** problems
 | 147 | 621. Task Scheduler | Heap | Medium | [621_Task_Scheduler.py](621_Task_Scheduler.py) |
 | 148 | 94. Binary Tree Inorder Traversal | Tree | Easy | [94_Binary_Tree_Inorder_Traversal.py](94_Binary_Tree_Inorder_Traversal.py) |
 | 149 | 96. Unique Binary Search Trees | Dynamic Programming | Medium | [96_Unique_Binary_Search_Trees.py](96_Unique_Binary_Search_Trees.py) |
+| 150 | 3875. Construct Uniform Parity Array I | Math | Medium | [3875_Construct_Uniform_Parity_Array_I.py](3875_Construct_Uniform_Parity_Array_I.py) |
