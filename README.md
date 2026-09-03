@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **153** problems
+Total: **154** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -157,3 +157,4 @@ Total: **153** problems
 | 151 | 55. Jump Game | Greedy | Medium | [55_Jump_Game.py](55_Jump_Game.py) |
 | 152 | 45. Jump Game II | Greedy | Medium | [45_Jump_Game_II.py](45_Jump_Game_II.py) |
 | 153 | 35. Search Insert Position | Binary Search | Easy | [35_Search_Insert_Position.py](35_Search_Insert_Position.py) |
+| 154 | 1752. Check if Array Is Sorted and Rotated | Array | Easy | [1752_Check_if_Array_Is_Sorted_and_Rotated.py](1752_Check_if_Array_Is_Sorted_and_Rotated.py) |
