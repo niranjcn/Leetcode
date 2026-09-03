@@ -155,4 +155,4 @@ Total: **152** problems
 | 149 | 96. Unique Binary Search Trees | Dynamic Programming | Medium | [96_Unique_Binary_Search_Trees.py](96_Unique_Binary_Search_Trees.py) |
 | 150 | 3875. Construct Uniform Parity Array I | Math | Medium | [3875_Construct_Uniform_Parity_Array_I.py](3875_Construct_Uniform_Parity_Array_I.py) |
 | 151 | 55. Jump Game | Greedy | Medium | [55_Jump_Game.py](55_Jump_Game.py) |
-| 152 |  Code Testcase Testcase Test Result 45. Jump Game II | Greedy | Medium | [Code_Testcase_Testcase_Test_Result_45_Jump_Game_II.py](Code_Testcase_Testcase_Test_Result_45_Jump_Game_II.py) |
+| 152 | 45. Jump Game II | Greedy | Medium | [45_Jump_Game_II.py](45_Jump_Game_II.py) |
