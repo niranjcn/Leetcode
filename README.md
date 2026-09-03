@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **152** problems
+Total: **153** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -156,3 +156,4 @@ Total: **152** problems
 | 150 | 3875. Construct Uniform Parity Array I | Math | Medium | [3875_Construct_Uniform_Parity_Array_I.py](3875_Construct_Uniform_Parity_Array_I.py) |
 | 151 | 55. Jump Game | Greedy | Medium | [55_Jump_Game.py](55_Jump_Game.py) |
 | 152 | 45. Jump Game II | Greedy | Medium | [45_Jump_Game_II.py](45_Jump_Game_II.py) |
+| 153 | 35. Search Insert Position | Binary Search | Easy | [35_Search_Insert_Position.py](35_Search_Insert_Position.py) |
