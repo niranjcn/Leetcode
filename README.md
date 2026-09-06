@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **158** problems
+Total: **159** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -162,3 +162,4 @@ Total: **158** problems
 | 156 | 136. Single Number | Bit Manipulation | Easy | [136_Single_Number.py](136_Single_Number.py) |
 | 157 | 2149. Rearrange Array Elements by Sign | Two Pointers | Medium | [2149_Rearrange_Array_Elements_by_Sign.py](2149_Rearrange_Array_Elements_by_Sign.py) |
 | 158 | 31. Next Permutation | Array | Medium | [31_Next_Permutation.py](31_Next_Permutation.py) |
+| 159 | 73. Set Matrix Zeroes | Array | Medium | [73_Set_Matrix_Zeroes.py](73_Set_Matrix_Zeroes.py) |
