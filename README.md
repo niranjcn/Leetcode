@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **159** problems
+Total: **160** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -163,3 +163,4 @@ Total: **159** problems
 | 157 | 2149. Rearrange Array Elements by Sign | Two Pointers | Medium | [2149_Rearrange_Array_Elements_by_Sign.py](2149_Rearrange_Array_Elements_by_Sign.py) |
 | 158 | 31. Next Permutation | Array | Medium | [31_Next_Permutation.py](31_Next_Permutation.py) |
 | 159 | 73. Set Matrix Zeroes | Array | Medium | [73_Set_Matrix_Zeroes.py](73_Set_Matrix_Zeroes.py) |
+| 160 | 48. Rotate Image | Array | Medium | [48_Rotate_Image.py](48_Rotate_Image.py) |
