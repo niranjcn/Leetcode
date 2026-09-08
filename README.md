@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **165** problems
+Total: **166** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -169,3 +169,4 @@ Total: **165** problems
 | 163 | 540. Single Element in a Sorted Array | Binary Search | Medium | [540_Single_Element_in_a_Sorted_Array.py](540_Single_Element_in_a_Sorted_Array.py) |
 | 164 | 3870. Count Commas in Range | Math | Easy | [3870_Count_Commas_in_Range.py](3870_Count_Commas_in_Range.py) |
 | 165 | 1482. Minimum Number of Days to Make m Bouquets | Binary Search | Medium | [1482_Minimum_Number_of_Days_to_Make_m_Bouquets.py](1482_Minimum_Number_of_Days_to_Make_m_Bouquets.py) |
+| 166 | 1283. Find the Smallest Divisor Given a Threshold | Binary Search | Medium | [1283_Find_the_Smallest_Divisor_Given_a_Threshold.py](1283_Find_the_Smallest_Divisor_Given_a_Threshold.py) |
