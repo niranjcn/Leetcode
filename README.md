@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **162** problems
+Total: **163** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -166,3 +166,4 @@ Total: **162** problems
 | 160 | 48. Rotate Image | Array | Medium | [48_Rotate_Image.py](48_Rotate_Image.py) |
 | 161 | 34. Find First and Last Position of Element in Sorted Array | Binary Search | Medium | [34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py](34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py) |
 | 162 | 81. Search in Rotated Sorted Array II | Binary Search | Medium | [81_Search_in_Rotated_Sorted_Array_II.py](81_Search_in_Rotated_Sorted_Array_II.py) |
+| 163 | 540. Single Element in a Sorted Array | Binary Search | Medium | [540_Single_Element_in_a_Sorted_Array.py](540_Single_Element_in_a_Sorted_Array.py) |
