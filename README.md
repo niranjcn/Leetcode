@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **164** problems
+Total: **165** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -168,3 +168,4 @@ Total: **164** problems
 | 162 | 81. Search in Rotated Sorted Array II | Binary Search | Medium | [81_Search_in_Rotated_Sorted_Array_II.py](81_Search_in_Rotated_Sorted_Array_II.py) |
 | 163 | 540. Single Element in a Sorted Array | Binary Search | Medium | [540_Single_Element_in_a_Sorted_Array.py](540_Single_Element_in_a_Sorted_Array.py) |
 | 164 | 3870. Count Commas in Range | Math | Easy | [3870_Count_Commas_in_Range.py](3870_Count_Commas_in_Range.py) |
+| 165 | 1482. Minimum Number of Days to Make m Bouquets | Binary Search | Medium | [1482_Minimum_Number_of_Days_to_Make_m_Bouquets.py](1482_Minimum_Number_of_Days_to_Make_m_Bouquets.py) |
