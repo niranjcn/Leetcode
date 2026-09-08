@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **161** problems
+Total: **162** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -165,3 +165,4 @@ Total: **161** problems
 | 159 | 73. Set Matrix Zeroes | Array | Medium | [73_Set_Matrix_Zeroes.py](73_Set_Matrix_Zeroes.py) |
 | 160 | 48. Rotate Image | Array | Medium | [48_Rotate_Image.py](48_Rotate_Image.py) |
 | 161 | 34. Find First and Last Position of Element in Sorted Array | Binary Search | Medium | [34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py](34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py) |
+| 162 | 81. Search in Rotated Sorted Array II | Binary Search | Medium | [81_Search_in_Rotated_Sorted_Array_II.py](81_Search_in_Rotated_Sorted_Array_II.py) |
