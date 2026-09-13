@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **169** problems
+Total: **170** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -173,3 +173,4 @@ Total: **169** problems
 | 167 | 3871. Count Commas in Range II | Array | Medium | [3871_Count_Commas_in_Range_II.py](3871_Count_Commas_in_Range_II.py) |
 | 168 | 1539. Kth Missing Positive Number | Binary Search | Easy | [1539_Kth_Missing_Positive_Number.py](1539_Kth_Missing_Positive_Number.py) |
 | 169 | 410. Split Array Largest Sum | Binary Search | Hard | [410_Split_Array_Largest_Sum.py](410_Split_Array_Largest_Sum.py) |
+| 170 | 1021. Remove Outermost Parentheses | String | Easy | [1021_Remove_Outermost_Parentheses.py](1021_Remove_Outermost_Parentheses.py) |
