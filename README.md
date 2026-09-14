@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **175** problems
+Total: **176** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -179,3 +179,4 @@ Total: **175** problems
 | 173 | 14. Longest Common Prefix | String | Easy | [14_Longest_Common_Prefix.py](14_Longest_Common_Prefix.py) |
 | 174 | 205. Isomorphic Strings | String | Easy | [205_Isomorphic_Strings.py](205_Isomorphic_Strings.py) |
 | 175 | 237. Delete Node in a Linked List | Linked List | Medium | [237_Delete_Node_in_a_Linked_List.py](237_Delete_Node_in_a_Linked_List.py) |
+| 176 | 876. Middle of the Linked List | Linked List | Easy | [876_Middle_of_the_Linked_List.py](876_Middle_of_the_Linked_List.py) |
