@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **173** problems
+Total: **174** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -177,3 +177,4 @@ Total: **173** problems
 | 171 | 151. Reverse Words in a String | String | Medium | [151_Reverse_Words_in_a_String.py](151_Reverse_Words_in_a_String.py) |
 | 172 | 1903. Largest Odd Number in String | String | Easy | [1903_Largest_Odd_Number_in_String.py](1903_Largest_Odd_Number_in_String.py) |
 | 173 | 14. Longest Common Prefix | String | Easy | [14_Longest_Common_Prefix.py](14_Longest_Common_Prefix.py) |
+| 174 | 205. Isomorphic Strings | String | Easy | [205_Isomorphic_Strings.py](205_Isomorphic_Strings.py) |
