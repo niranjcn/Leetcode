@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **174** problems
+Total: **175** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -178,3 +178,4 @@ Total: **174** problems
 | 172 | 1903. Largest Odd Number in String | String | Easy | [1903_Largest_Odd_Number_in_String.py](1903_Largest_Odd_Number_in_String.py) |
 | 173 | 14. Longest Common Prefix | String | Easy | [14_Longest_Common_Prefix.py](14_Longest_Common_Prefix.py) |
 | 174 | 205. Isomorphic Strings | String | Easy | [205_Isomorphic_Strings.py](205_Isomorphic_Strings.py) |
+| 175 | 237. Delete Node in a Linked List | Linked List | Medium | [237_Delete_Node_in_a_Linked_List.py](237_Delete_Node_in_a_Linked_List.py) |
