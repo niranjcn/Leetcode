@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **179** problems
+Total: **180** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -183,3 +183,4 @@ Total: **179** problems
 | 177 | 142. Linked List Cycle II | Linked List | Medium | [142_Linked_List_Cycle_II.py](142_Linked_List_Cycle_II.py) |
 | 178 | 234. Palindrome Linked List | Linked List | Easy | [234_Palindrome_Linked_List.py](234_Palindrome_Linked_List.py) |
 | 179 | 328. Odd Even Linked List | Linked List | Medium | [328_Odd_Even_Linked_List.py](328_Odd_Even_Linked_List.py) |
+| 180 | 2095. Delete the Middle Node of a Linked List | Linked List | Medium | [2095_Delete_the_Middle_Node_of_a_Linked_List.py](2095_Delete_the_Middle_Node_of_a_Linked_List.py) |
