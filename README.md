@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **177** problems
+Total: **178** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -181,3 +181,4 @@ Total: **177** problems
 | 175 | 237. Delete Node in a Linked List | Linked List | Medium | [237_Delete_Node_in_a_Linked_List.py](237_Delete_Node_in_a_Linked_List.py) |
 | 176 | 876. Middle of the Linked List | Linked List | Easy | [876_Middle_of_the_Linked_List.py](876_Middle_of_the_Linked_List.py) |
 | 177 | 142. Linked List Cycle II | Linked List | Medium | [142_Linked_List_Cycle_II.py](142_Linked_List_Cycle_II.py) |
+| 178 | 234. Palindrome Linked List | Linked List | Easy | [234_Palindrome_Linked_List.py](234_Palindrome_Linked_List.py) |
