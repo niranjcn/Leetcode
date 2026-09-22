@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **182** problems
+Total: **183** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -186,3 +186,4 @@ Total: **182** problems
 | 180 | 2095. Delete the Middle Node of a Linked List | Linked List | Medium | [2095_Delete_the_Middle_Node_of_a_Linked_List.py](2095_Delete_the_Middle_Node_of_a_Linked_List.py) |
 | 181 | 160. Intersection of Two Linked Lists | Linked List | Easy | [160_Intersection_of_Two_Linked_Lists.py](160_Intersection_of_Two_Linked_Lists.py) |
 | 182 | 3498. Reverse Degree of a String | String | Easy | [3498_Reverse_Degree_of_a_String.py](3498_Reverse_Degree_of_a_String.py) |
+| 183 | 528. Random Pick with Weight | Prefix Sum | Medium | [528_Random_Pick_with_Weight.py](528_Random_Pick_with_Weight.py) |
