@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **184** problems
+Total: **185** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -188,3 +188,4 @@ Total: **184** problems
 | 182 | 3498. Reverse Degree of a String | String | Easy | [3498_Reverse_Degree_of_a_String.py](3498_Reverse_Degree_of_a_String.py) |
 | 183 | 528. Random Pick with Weight | Prefix Sum | Medium | [528_Random_Pick_with_Weight.py](528_Random_Pick_with_Weight.py) |
 | 184 | 455. Assign Cookies | Greedy | Easy | [455_Assign_Cookies.py](455_Assign_Cookies.py) |
+| 185 | 860. Lemonade Change | Greedy | Easy | [860_Lemonade_Change.py](860_Lemonade_Change.py) |
