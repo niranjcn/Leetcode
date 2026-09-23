@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **185** problems
+Total: **186** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -189,3 +189,4 @@ Total: **185** problems
 | 183 | 528. Random Pick with Weight | Prefix Sum | Medium | [528_Random_Pick_with_Weight.py](528_Random_Pick_with_Weight.py) |
 | 184 | 455. Assign Cookies | Greedy | Easy | [455_Assign_Cookies.py](455_Assign_Cookies.py) |
 | 185 | 860. Lemonade Change | Greedy | Easy | [860_Lemonade_Change.py](860_Lemonade_Change.py) |
+| 186 | 959. Shortest Job First | Greedy | Medium | [959_Shortest_Job_First.py](959_Shortest_Job_First.py) |
