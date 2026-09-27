@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **188** problems
+Total: **189** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -192,3 +192,4 @@ Total: **188** problems
 | 186 | 959. Shortest Job First | Greedy | Medium | [959_Shortest_Job_First.py](959_Shortest_Job_First.py) |
 | 187 | 3550. Smallest Index With Digit Sum Equal to Index | Array | Easy | [3550_Smallest_Index_With_Digit_Sum_Equal_to_Index.py](3550_Smallest_Index_With_Digit_Sum_Equal_to_Index.py) |
 | 188 | 325. Maximum Size Subarray Sum Equals k | HashMap | Medium | [325_Maximum_Size_Subarray_Sum_Equals_k.py](325_Maximum_Size_Subarray_Sum_Equals_k.py) |
+| 189 | 1768. Merge Strings Alternately | String | Easy | [1768_Merge_Strings_Alternately.py](1768_Merge_Strings_Alternately.py) |
