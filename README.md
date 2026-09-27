@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **191** problems
+Total: **192** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -195,3 +195,4 @@ Total: **191** problems
 | 189 | 1768. Merge Strings Alternately | String | Easy | [1768_Merge_Strings_Alternately.py](1768_Merge_Strings_Alternately.py) |
 | 190 | 1071. Greatest Common Divisor of Strings | String | Easy | [1071_Greatest_Common_Divisor_of_Strings.py](1071_Greatest_Common_Divisor_of_Strings.py) |
 | 191 | 1431. Kids With the Greatest Number of Candies | Array | Easy | [1431_Kids_With_the_Greatest_Number_of_Candies.py](1431_Kids_With_the_Greatest_Number_of_Candies.py) |
+| 192 | 605. Can Place Flowers | Greedy | Easy | [605_Can_Place_Flowers.py](605_Can_Place_Flowers.py) |
