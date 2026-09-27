@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **190** problems
+Total: **191** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -194,3 +194,4 @@ Total: **190** problems
 | 188 | 325. Maximum Size Subarray Sum Equals k | HashMap | Medium | [325_Maximum_Size_Subarray_Sum_Equals_k.py](325_Maximum_Size_Subarray_Sum_Equals_k.py) |
 | 189 | 1768. Merge Strings Alternately | String | Easy | [1768_Merge_Strings_Alternately.py](1768_Merge_Strings_Alternately.py) |
 | 190 | 1071. Greatest Common Divisor of Strings | String | Easy | [1071_Greatest_Common_Divisor_of_Strings.py](1071_Greatest_Common_Divisor_of_Strings.py) |
+| 191 | 1431. Kids With the Greatest Number of Candies | Array | Easy | [1431_Kids_With_the_Greatest_Number_of_Candies.py](1431_Kids_With_the_Greatest_Number_of_Candies.py) |
