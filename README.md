@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **195** problems
+Total: **196** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -199,3 +199,4 @@ Total: **195** problems
 | 193 | 345. Reverse Vowels of a String | Two Pointers | Easy | [345_Reverse_Vowels_of_a_String.py](345_Reverse_Vowels_of_a_String.py) |
 | 194 | 334. Increasing Triplet Subsequence | Greedy | Medium | [334_Increasing_Triplet_Subsequence.py](334_Increasing_Triplet_Subsequence.py) |
 | 195 | 443. String Compression | Two Pointers | Medium | [443_String_Compression.py](443_String_Compression.py) |
+| 196 | 392. Is Subsequence | Two Pointers | Easy | [392_Is_Subsequence.py](392_Is_Subsequence.py) |
