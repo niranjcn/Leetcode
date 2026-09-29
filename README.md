@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **196** problems
+Total: **197** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -200,3 +200,4 @@ Total: **196** problems
 | 194 | 334. Increasing Triplet Subsequence | Greedy | Medium | [334_Increasing_Triplet_Subsequence.py](334_Increasing_Triplet_Subsequence.py) |
 | 195 | 443. String Compression | Two Pointers | Medium | [443_String_Compression.py](443_String_Compression.py) |
 | 196 | 392. Is Subsequence | Two Pointers | Easy | [392_Is_Subsequence.py](392_Is_Subsequence.py) |
+| 197 | 1679. Max Number of K-Sum Pairs | Two Pointers | Medium | [1679_Max_Number_of_K_Sum_Pairs.py](1679_Max_Number_of_K_Sum_Pairs.py) |
