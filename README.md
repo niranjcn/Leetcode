@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **194** problems
+Total: **195** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -198,3 +198,4 @@ Total: **194** problems
 | 192 | 605. Can Place Flowers | Greedy | Easy | [605_Can_Place_Flowers.py](605_Can_Place_Flowers.py) |
 | 193 | 345. Reverse Vowels of a String | Two Pointers | Easy | [345_Reverse_Vowels_of_a_String.py](345_Reverse_Vowels_of_a_String.py) |
 | 194 | 334. Increasing Triplet Subsequence | Greedy | Medium | [334_Increasing_Triplet_Subsequence.py](334_Increasing_Triplet_Subsequence.py) |
+| 195 | 443. String Compression | Two Pointers | Medium | [443_String_Compression.py](443_String_Compression.py) |
