@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **193** problems
+Total: **194** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -197,3 +197,4 @@ Total: **193** problems
 | 191 | 1431. Kids With the Greatest Number of Candies | Array | Easy | [1431_Kids_With_the_Greatest_Number_of_Candies.py](1431_Kids_With_the_Greatest_Number_of_Candies.py) |
 | 192 | 605. Can Place Flowers | Greedy | Easy | [605_Can_Place_Flowers.py](605_Can_Place_Flowers.py) |
 | 193 | 345. Reverse Vowels of a String | Two Pointers | Easy | [345_Reverse_Vowels_of_a_String.py](345_Reverse_Vowels_of_a_String.py) |
+| 194 | 334. Increasing Triplet Subsequence | Greedy | Medium | [334_Increasing_Triplet_Subsequence.py](334_Increasing_Triplet_Subsequence.py) |
