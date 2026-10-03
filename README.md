@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **200** problems
+Total: **201** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -204,3 +204,4 @@ Total: **200** problems
 | 198 | 1456. Maximum Number of Vowels in a Substring of Given Length | Sliding Window | Medium | [1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length.py](1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length.py) |
 | 199 | 1732. Find the Highest Altitude | Prefix Sum | Easy | [1732_Find_the_Highest_Altitude.py](1732_Find_the_Highest_Altitude.py) |
 | 200 | 2215. Find the Difference of Two Arrays | HashMap | Easy | [2215_Find_the_Difference_of_Two_Arrays.py](2215_Find_the_Difference_of_Two_Arrays.py) |
+| 201 | 1207. Unique Number of Occurrences | HashMap | Easy | [1207_Unique_Number_of_Occurrences.py](1207_Unique_Number_of_Occurrences.py) |
