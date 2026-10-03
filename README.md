@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **198** problems
+Total: **199** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -202,3 +202,4 @@ Total: **198** problems
 | 196 | 392. Is Subsequence | Two Pointers | Easy | [392_Is_Subsequence.py](392_Is_Subsequence.py) |
 | 197 | 1679. Max Number of K-Sum Pairs | Two Pointers | Medium | [1679_Max_Number_of_K_Sum_Pairs.py](1679_Max_Number_of_K_Sum_Pairs.py) |
 | 198 | 1456. Maximum Number of Vowels in a Substring of Given Length | Sliding Window | Medium | [1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length.py](1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length.py) |
+| 199 | 1732. Find the Highest Altitude | Prefix Sum | Easy | [1732_Find_the_Highest_Altitude.py](1732_Find_the_Highest_Altitude.py) |
