@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **204** problems
+Total: **205** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -208,3 +208,4 @@ Total: **204** problems
 | 202 | 1657. Determine if Two Strings Are Close | HashMap | Medium | [1657_Determine_if_Two_Strings_Are_Close.py](1657_Determine_if_Two_Strings_Are_Close.py) |
 | 203 | 2352. Equal Row and Column Pairs | HashMap | Medium | [2352_Equal_Row_and_Column_Pairs.py](2352_Equal_Row_and_Column_Pairs.py) |
 | 204 | 2390. Removing Stars From a String | Stack | Medium | [2390_Removing_Stars_From_a_String.py](2390_Removing_Stars_From_a_String.py) |
+| 205 | 735. Asteroid Collision | Stack | Medium | [735_Asteroid_Collision.py](735_Asteroid_Collision.py) |
