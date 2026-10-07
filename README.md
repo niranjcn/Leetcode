@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **203** problems
+Total: **204** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -207,3 +207,4 @@ Total: **203** problems
 | 201 | 1207. Unique Number of Occurrences | HashMap | Easy | [1207_Unique_Number_of_Occurrences.py](1207_Unique_Number_of_Occurrences.py) |
 | 202 | 1657. Determine if Two Strings Are Close | HashMap | Medium | [1657_Determine_if_Two_Strings_Are_Close.py](1657_Determine_if_Two_Strings_Are_Close.py) |
 | 203 | 2352. Equal Row and Column Pairs | HashMap | Medium | [2352_Equal_Row_and_Column_Pairs.py](2352_Equal_Row_and_Column_Pairs.py) |
+| 204 | 2390. Removing Stars From a String | Stack | Medium | [2390_Removing_Stars_From_a_String.py](2390_Removing_Stars_From_a_String.py) |
