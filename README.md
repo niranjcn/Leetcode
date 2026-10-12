@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **206** problems
+Total: **207** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -210,3 +210,4 @@ Total: **206** problems
 | 204 | 2390. Removing Stars From a String | Stack | Medium | [2390_Removing_Stars_From_a_String.py](2390_Removing_Stars_From_a_String.py) |
 | 205 | 735. Asteroid Collision | Stack | Medium | [735_Asteroid_Collision.py](735_Asteroid_Collision.py) |
 | 206 | 394. Decode String | Stack | Medium | [394_Decode_String.py](394_Decode_String.py) |
+| 207 | 933. Number of Recent Calls | Queue | Easy | [933_Number_of_Recent_Calls.py](933_Number_of_Recent_Calls.py) |
