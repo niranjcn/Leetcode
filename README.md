@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total: **210** problems
+Total: **211** problems
 
 | # | Title | Topic | Difficulty | File |
 |---|-------|-------|------------|------|
@@ -170,47 +170,48 @@ Total: **210** problems
 | 164 | 1456. Maximum Number of Vowels in a Substring of Given Length | Sliding Window | Medium | [1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length.py](1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length.py) |
 | 165 | 322. Coin Change | Dynamic Programming | Medium | [322_Coin_Change.py](322_Coin_Change.py) |
 | 166 | 230. Kth Smallest Element in a BST | BST | Medium | [230_Kth_Smallest_Element_in_a_BST.py](230_Kth_Smallest_Element_in_a_BST.py) |
-| 167 | 1539. Kth Missing Positive Number | Binary Search | Easy | [1539_Kth_Missing_Positive_Number.py](1539_Kth_Missing_Positive_Number.py) |
-| 168 | 162. Find Peak Element | Binary Search | Medium | [162_Find_Peak_Element.py](162_Find_Peak_Element.py) |
-| 169 | 118. Pascal's Triangle | Array | Easy | [118_Pascals_Triangle.py](118_Pascals_Triangle.py) |
-| 170 | 236. Lowest Common Ancestor of a Binary Tree | Tree | Medium | [236_Lowest_Common_Ancestor_of_a_Binary_Tree.py](236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) |
-| 171 | 746. Min Cost Climbing Stairs | Dynamic Programming | Easy | [746_Min_Cost_Climbing_Stairs.py](746_Min_Cost_Climbing_Stairs.py) |
-| 172 | 410. Split Array Largest Sum | Binary Search | Hard | [410_Split_Array_Largest_Sum.py](410_Split_Array_Largest_Sum.py) |
-| 173 | 1021. Remove Outermost Parentheses | String | Easy | [1021_Remove_Outermost_Parentheses.py](1021_Remove_Outermost_Parentheses.py) |
-| 174 | 94. Binary Tree Inorder Traversal | Tree | Easy | [94_Binary_Tree_Inorder_Traversal.py](94_Binary_Tree_Inorder_Traversal.py) |
-| 175 | 96. Unique Binary Search Trees | Dynamic Programming | Medium | [96_Unique_Binary_Search_Trees.py](96_Unique_Binary_Search_Trees.py) |
-| 176 | 3875. Construct Uniform Parity Array I | Math | Medium | [3875_Construct_Uniform_Parity_Array_I.py](3875_Construct_Uniform_Parity_Array_I.py) |
-| 177 | 55. Jump Game | Greedy | Medium | [55_Jump_Game.py](55_Jump_Game.py) |
-| 178 | 45. Jump Game II | Greedy | Medium | [45_Jump_Game_II.py](45_Jump_Game_II.py) |
-| 179 | 35. Search Insert Position | Binary Search | Easy | [35_Search_Insert_Position.py](35_Search_Insert_Position.py) |
-| 180 | 1752. Check if Array Is Sorted and Rotated | Array | Easy | [1752_Check_if_Array_Is_Sorted_and_Rotated.py](1752_Check_if_Array_Is_Sorted_and_Rotated.py) |
-| 181 | 283. Move Zeroes | Array | Medium | [283_Move_Zeroes.py](283_Move_Zeroes.py) |
-| 182 | 207. Course Schedule | Topological Sort | Medium | [207_Course_Schedule.py](207_Course_Schedule.py) |
-| 183 | 327. Count of Range Sum | Prefix Sum | Hard | [327_Count_of_Range_Sum.py](327_Count_of_Range_Sum.py) |
-| 184 | 4. Median of Two Sorted Arrays | Binary Search | Hard | [4_Median_of_Two_Sorted_Arrays.py](4_Median_of_Two_Sorted_Arrays.py) |
-| 185 | 198. House Robber | Dynamic Programming | Medium | [198_House_Robber.py](198_House_Robber.py) |
-| 186 | 645. Set Mismatch | Array | Easy | [645_Set_Mismatch.py](645_Set_Mismatch.py) |
-| 187 | 138. Copy List with Random Pointer | Linked List | Medium | [138_Copy_List_with_Random_Pointer.py](138_Copy_List_with_Random_Pointer.py) |
-| 188 | 139. Word Break | Dynamic Programming | Medium | [139_Word_Break.py](139_Word_Break.py) |
-| 189 | 416. Partition Equal Subset Sum | Dynamic Programming | Medium | [416_Partition_Equal_Subset_Sum.py](416_Partition_Equal_Subset_Sum.py) |
-| 190 | 136. Single Number | Bit Manipulation | Easy | [136_Single_Number.py](136_Single_Number.py) |
-| 191 | 141. Linked List Cycle | Linked List | Easy | [141_Linked_List_Cycle.py](141_Linked_List_Cycle.py) |
-| 192 | 383. Ransom Note | HashMap | Easy | [383_Ransom_Note.py](383_Ransom_Note.py) |
-| 193 | 62. Unique Paths | Dynamic Programming | Medium | [62_Unique_Paths.py](62_Unique_Paths.py) |
-| 194 | 64. Minimum Path Sum | Dynamic Programming | Medium | [64_Minimum_Path_Sum.py](64_Minimum_Path_Sum.py) |
-| 195 | 1143. Longest Common Subsequence | Dynamic Programming | Medium | [1143_Longest_Common_Subsequence.py](1143_Longest_Common_Subsequence.py) |
-| 196 | 10. Regular Expression Matching | Dynamic Programming | Hard | [10_Regular_Expression_Matching.py](10_Regular_Expression_Matching.py) |
-| 197 | 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | Sliding Window | Medium | [1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py](1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py) |
-| 198 | 981. Time Based Key-Value Store | Binary Search | Medium | [981_Time_Based_Key_Value_Store.py](981_Time_Based_Key_Value_Store.py) |
-| 199 | 133. Clone Graph | Graph | Medium | [133_Clone_Graph.py](133_Clone_Graph.py) |
-| 200 | 1658. Minimum Operations to Reduce X to Zero | Sliding Window | Medium | [1658_Minimum_Operations_to_Reduce_X_to_Zero.py](1658_Minimum_Operations_to_Reduce_X_to_Zero.py) |
-| 201 | 684. Redundant Connection | Union Find | Medium | [684_Redundant_Connection.py](684_Redundant_Connection.py) |
-| 202 | 743. Network Delay Time | Graph | Medium | [743_Network_Delay_Time.py](743_Network_Delay_Time.py) |
-| 203 | 124. Binary Tree Maximum Path Sum | Tree | Hard | [124_Binary_Tree_Maximum_Path_Sum.py](124_Binary_Tree_Maximum_Path_Sum.py) |
-| 204 | 621. Task Scheduler | Heap | Medium | [621_Task_Scheduler.py](621_Task_Scheduler.py) |
-| 205 | 875. Koko Eating Bananas | Binary Search | Medium | [875_Koko_Eating_Bananas.py](875_Koko_Eating_Bananas.py) |
-| 206 | 424. Longest Repeating Character Replacement | Sliding Window | Medium | [424_Longest_Repeating_Character_Replacement.py](424_Longest_Repeating_Character_Replacement.py) |
-| 207 | 1331. Rank Transform of an Array | HashMap | Easy | [1331_Rank_Transform_of_an_Array.py](1331_Rank_Transform_of_an_Array.py) |
-| 208 | 572. Subtree of Another Tree | Tree | Easy | [572_Subtree_of_Another_Tree.py](572_Subtree_of_Another_Tree.py) |
-| 209 | 271. Encode and Decode Strings | String | Medium | [271_Encode_and_Decode_Strings.py](271_Encode_and_Decode_Strings.py) |
-| 210 | 22. Generate Parentheses | Stack | Medium | [22_Generate_Parentheses.py](22_Generate_Parentheses.py) |
+| 167 | 437. Path Sum III | DFS | Medium | [437_Path_Sum_III.py](437_Path_Sum_III.py) |
+| 168 | 1539. Kth Missing Positive Number | Binary Search | Easy | [1539_Kth_Missing_Positive_Number.py](1539_Kth_Missing_Positive_Number.py) |
+| 169 | 162. Find Peak Element | Binary Search | Medium | [162_Find_Peak_Element.py](162_Find_Peak_Element.py) |
+| 170 | 118. Pascal's Triangle | Array | Easy | [118_Pascals_Triangle.py](118_Pascals_Triangle.py) |
+| 171 | 236. Lowest Common Ancestor of a Binary Tree | Tree | Medium | [236_Lowest_Common_Ancestor_of_a_Binary_Tree.py](236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) |
+| 172 | 746. Min Cost Climbing Stairs | Dynamic Programming | Easy | [746_Min_Cost_Climbing_Stairs.py](746_Min_Cost_Climbing_Stairs.py) |
+| 173 | 410. Split Array Largest Sum | Binary Search | Hard | [410_Split_Array_Largest_Sum.py](410_Split_Array_Largest_Sum.py) |
+| 174 | 1021. Remove Outermost Parentheses | String | Easy | [1021_Remove_Outermost_Parentheses.py](1021_Remove_Outermost_Parentheses.py) |
+| 175 | 94. Binary Tree Inorder Traversal | Tree | Easy | [94_Binary_Tree_Inorder_Traversal.py](94_Binary_Tree_Inorder_Traversal.py) |
+| 176 | 96. Unique Binary Search Trees | Dynamic Programming | Medium | [96_Unique_Binary_Search_Trees.py](96_Unique_Binary_Search_Trees.py) |
+| 177 | 3875. Construct Uniform Parity Array I | Math | Medium | [3875_Construct_Uniform_Parity_Array_I.py](3875_Construct_Uniform_Parity_Array_I.py) |
+| 178 | 55. Jump Game | Greedy | Medium | [55_Jump_Game.py](55_Jump_Game.py) |
+| 179 | 45. Jump Game II | Greedy | Medium | [45_Jump_Game_II.py](45_Jump_Game_II.py) |
+| 180 | 35. Search Insert Position | Binary Search | Easy | [35_Search_Insert_Position.py](35_Search_Insert_Position.py) |
+| 181 | 1752. Check if Array Is Sorted and Rotated | Array | Easy | [1752_Check_if_Array_Is_Sorted_and_Rotated.py](1752_Check_if_Array_Is_Sorted_and_Rotated.py) |
+| 182 | 283. Move Zeroes | Array | Medium | [283_Move_Zeroes.py](283_Move_Zeroes.py) |
+| 183 | 207. Course Schedule | Topological Sort | Medium | [207_Course_Schedule.py](207_Course_Schedule.py) |
+| 184 | 327. Count of Range Sum | Prefix Sum | Hard | [327_Count_of_Range_Sum.py](327_Count_of_Range_Sum.py) |
+| 185 | 4. Median of Two Sorted Arrays | Binary Search | Hard | [4_Median_of_Two_Sorted_Arrays.py](4_Median_of_Two_Sorted_Arrays.py) |
+| 186 | 198. House Robber | Dynamic Programming | Medium | [198_House_Robber.py](198_House_Robber.py) |
+| 187 | 645. Set Mismatch | Array | Easy | [645_Set_Mismatch.py](645_Set_Mismatch.py) |
+| 188 | 138. Copy List with Random Pointer | Linked List | Medium | [138_Copy_List_with_Random_Pointer.py](138_Copy_List_with_Random_Pointer.py) |
+| 189 | 139. Word Break | Dynamic Programming | Medium | [139_Word_Break.py](139_Word_Break.py) |
+| 190 | 416. Partition Equal Subset Sum | Dynamic Programming | Medium | [416_Partition_Equal_Subset_Sum.py](416_Partition_Equal_Subset_Sum.py) |
+| 191 | 136. Single Number | Bit Manipulation | Easy | [136_Single_Number.py](136_Single_Number.py) |
+| 192 | 141. Linked List Cycle | Linked List | Easy | [141_Linked_List_Cycle.py](141_Linked_List_Cycle.py) |
+| 193 | 383. Ransom Note | HashMap | Easy | [383_Ransom_Note.py](383_Ransom_Note.py) |
+| 194 | 62. Unique Paths | Dynamic Programming | Medium | [62_Unique_Paths.py](62_Unique_Paths.py) |
+| 195 | 64. Minimum Path Sum | Dynamic Programming | Medium | [64_Minimum_Path_Sum.py](64_Minimum_Path_Sum.py) |
+| 196 | 1143. Longest Common Subsequence | Dynamic Programming | Medium | [1143_Longest_Common_Subsequence.py](1143_Longest_Common_Subsequence.py) |
+| 197 | 10. Regular Expression Matching | Dynamic Programming | Hard | [10_Regular_Expression_Matching.py](10_Regular_Expression_Matching.py) |
+| 198 | 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | Sliding Window | Medium | [1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py](1438_Longest_Continuous_Subarray_With_Absolute_Diff_Less_Than_or_Equal_to_Limit.py) |
+| 199 | 981. Time Based Key-Value Store | Binary Search | Medium | [981_Time_Based_Key_Value_Store.py](981_Time_Based_Key_Value_Store.py) |
+| 200 | 133. Clone Graph | Graph | Medium | [133_Clone_Graph.py](133_Clone_Graph.py) |
+| 201 | 1658. Minimum Operations to Reduce X to Zero | Sliding Window | Medium | [1658_Minimum_Operations_to_Reduce_X_to_Zero.py](1658_Minimum_Operations_to_Reduce_X_to_Zero.py) |
+| 202 | 684. Redundant Connection | Union Find | Medium | [684_Redundant_Connection.py](684_Redundant_Connection.py) |
+| 203 | 743. Network Delay Time | Graph | Medium | [743_Network_Delay_Time.py](743_Network_Delay_Time.py) |
+| 204 | 124. Binary Tree Maximum Path Sum | Tree | Hard | [124_Binary_Tree_Maximum_Path_Sum.py](124_Binary_Tree_Maximum_Path_Sum.py) |
+| 205 | 621. Task Scheduler | Heap | Medium | [621_Task_Scheduler.py](621_Task_Scheduler.py) |
+| 206 | 875. Koko Eating Bananas | Binary Search | Medium | [875_Koko_Eating_Bananas.py](875_Koko_Eating_Bananas.py) |
+| 207 | 424. Longest Repeating Character Replacement | Sliding Window | Medium | [424_Longest_Repeating_Character_Replacement.py](424_Longest_Repeating_Character_Replacement.py) |
+| 208 | 1331. Rank Transform of an Array | HashMap | Easy | [1331_Rank_Transform_of_an_Array.py](1331_Rank_Transform_of_an_Array.py) |
+| 209 | 572. Subtree of Another Tree | Tree | Easy | [572_Subtree_of_Another_Tree.py](572_Subtree_of_Another_Tree.py) |
+| 210 | 271. Encode and Decode Strings | String | Medium | [271_Encode_and_Decode_Strings.py](271_Encode_and_Decode_Strings.py) |
+| 211 | 22. Generate Parentheses | Stack | Medium | [22_Generate_Parentheses.py](22_Generate_Parentheses.py) |
